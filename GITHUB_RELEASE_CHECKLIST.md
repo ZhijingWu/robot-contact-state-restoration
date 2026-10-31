@@ -15,12 +15,12 @@
 
 ## Authorized publication and CV integration
 
-This section is completed after the real remote operations; the audit snapshot does not claim they already happened.
+Completed after actual repository creation, push, anonymous access verification and local CV inspection. Owner-specific CV files and final publication reports are delivered separately; they are not part of the public study data.
 
-- [ ] Create the public repository under the authenticated ZhijingWu account.
-- [ ] Push only the audited staging history.
-- [ ] Verify anonymous HTTP access and matching remote commit/tree content.
-- [ ] Insert the verified repository URL into a separate revision of the actual UCLA LaTeX source.
-- [ ] Compile a one-page CV, keep awards separate and verify 80–90% usable-height occupancy.
-- [ ] Verify the PDF URI target and visually inspect the final page.
-- [ ] Confirm UCSD, historical files and homepage remain unchanged; no email sent.
+- [x] Create the public repository under the authenticated ZhijingWu account.
+- [x] Push only the audited staging history.
+- [x] Verify anonymous HTTP access and matching remote commit/tree content.
+- [x] Insert the verified repository URL into a separate revision of the actual UCLA LaTeX source.
+- [x] Compile a one-page CV, keep awards separate and verify 80–90% usable-height occupancy.
+- [x] Verify the PDF URI target and visually inspect the final page.
+- [x] Confirm UCSD, historical files and homepage remain unchanged; no email sent.
