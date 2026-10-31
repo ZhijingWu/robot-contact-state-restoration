@@ -1,0 +1,2247 @@
+{
+  "mujoco": "3.17.0",
+  "model_sha256": "a5b1bbb38c8a064b60b004b1f4f86d222e9aded53838ea96e7baa9ee1d2c7fe1",
+  "state_signature": {
+    "mjSTATE_TIME": {
+      "bit": 1,
+      "size": 1
+    },
+    "mjSTATE_QPOS": {
+      "bit": 2,
+      "size": 22
+    },
+    "mjSTATE_QVEL": {
+      "bit": 4,
+      "size": 21
+    },
+    "mjSTATE_ACT": {
+      "bit": 8,
+      "size": 0
+    },
+    "mjSTATE_HISTORY": {
+      "bit": 16,
+      "size": 0
+    },
+    "mjSTATE_WARMSTART": {
+      "bit": 32,
+      "size": 21
+    },
+    "mjSTATE_CTRL": {
+      "bit": 64,
+      "size": 8
+    },
+    "mjSTATE_QFRC_APPLIED": {
+      "bit": 128,
+      "size": 21
+    },
+    "mjSTATE_XFRC_APPLIED": {
+      "bit": 256,
+      "size": 150
+    },
+    "mjSTATE_EQ_ACTIVE": {
+      "bit": 512,
+      "size": 3
+    },
+    "mjSTATE_MOCAP_POS": {
+      "bit": 1024,
+      "size": 0
+    },
+    "mjSTATE_MOCAP_QUAT": {
+      "bit": 2048,
+      "size": 0
+    },
+    "mjSTATE_USERDATA": {
+      "bit": 4096,
+      "size": 0
+    },
+    "mjSTATE_PLUGIN": {
+      "bit": 8192,
+      "size": 0
+    },
+    "mjSTATE_PHYSICS": {
+      "bit": 30,
+      "size": 43
+    },
+    "mjSTATE_FULLPHYSICS": {
+      "bit": 8223,
+      "size": 44
+    },
+    "mjSTATE_USER": {
+      "bit": 8128,
+      "size": 182
+    },
+    "mjSTATE_INTEGRATION": {
+      "bit": 16383,
+      "size": 247
+    }
+  },
+  "solver": {
+    "timestep": 0.0016666666666666666,
+    "integrator": 3,
+    "solver": 2,
+    "cone": 1,
+    "iterations": 15,
+    "tolerance": 1e-07,
+    "impratio": 5.0
+  },
+  "sizes": {
+    "nq": 22,
+    "nv": 21,
+    "na": 0,
+    "nu": 8,
+    "nhistory": 0,
+    "neq": 3,
+    "nmocap": 0,
+    "nuserdata": 0,
+    "npluginstate": 0,
+    "nbody": 25
+  },
+  "geoms": [
+    {
+      "id": 0,
+      "name": "ground",
+      "body": "world",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 1,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 2,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 3,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 4,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 5,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 6,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 7,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 8,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 9,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 10,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 11,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 12,
+      "name": "",
+      "body": "link0",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 13,
+      "name": "",
+      "body": "link1",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 14,
+      "name": "",
+      "body": "link1",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 15,
+      "name": "",
+      "body": "link2",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 16,
+      "name": "",
+      "body": "link2",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 17,
+      "name": "",
+      "body": "link3",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 18,
+      "name": "",
+      "body": "link3",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 19,
+      "name": "",
+      "body": "link3",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 20,
+      "name": "",
+      "body": "link3",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 21,
+      "name": "",
+      "body": "link3",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 22,
+      "name": "",
+      "body": "link4",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 23,
+      "name": "",
+      "body": "link4",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 24,
+      "name": "",
+      "body": "link4",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 25,
+      "name": "",
+      "body": "link4",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 26,
+      "name": "",
+      "body": "link4",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 27,
+      "name": "",
+      "body": "link5",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 28,
+      "name": "",
+      "body": "link5",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 29,
+      "name": "",
+      "body": "link5",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 30,
+      "name": "",
+      "body": "link5",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 31,
+      "name": "",
+      "body": "link5",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 32,
+      "name": "",
+      "body": "link5",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 33,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 34,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 35,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 36,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 37,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 38,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 39,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 40,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 41,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 42,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 43,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 44,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 45,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 46,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 47,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 48,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 49,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 50,
+      "name": "",
+      "body": "link6",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 51,
+      "name": "",
+      "body": "link7",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 52,
+      "name": "",
+      "body": "link7",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 53,
+      "name": "",
+      "body": "link7",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 54,
+      "name": "",
+      "body": "link7",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 55,
+      "name": "",
+      "body": "link7",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 56,
+      "name": "",
+      "body": "link7",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 57,
+      "name": "",
+      "body": "link7",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 58,
+      "name": "",
+      "body": "link7",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 59,
+      "name": "",
+      "body": "link7",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 60,
+      "name": "",
+      "body": "base_mount",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 61,
+      "name": "",
+      "body": "base_mount",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 62,
+      "name": "",
+      "body": "base",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 63,
+      "name": "",
+      "body": "base",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 64,
+      "name": "",
+      "body": "right_driver",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 65,
+      "name": "",
+      "body": "right_driver",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 66,
+      "name": "",
+      "body": "right_coupler",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 67,
+      "name": "",
+      "body": "right_coupler",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 68,
+      "name": "",
+      "body": "right_spring_link",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 69,
+      "name": "",
+      "body": "right_spring_link",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 70,
+      "name": "",
+      "body": "right_follower",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 71,
+      "name": "",
+      "body": "right_follower",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 72,
+      "name": "right_pad1",
+      "body": "right_pad",
+      "friction": [
+        0.7,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.004,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 73,
+      "name": "right_pad2",
+      "body": "right_pad",
+      "friction": [
+        0.6,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.004,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 74,
+      "name": "",
+      "body": "right_pad",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 75,
+      "name": "",
+      "body": "right_silicone_pad",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 76,
+      "name": "",
+      "body": "left_driver",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 77,
+      "name": "",
+      "body": "left_driver",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 78,
+      "name": "",
+      "body": "left_coupler",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 79,
+      "name": "",
+      "body": "left_coupler",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 80,
+      "name": "",
+      "body": "left_spring_link",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 81,
+      "name": "",
+      "body": "left_spring_link",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 82,
+      "name": "",
+      "body": "left_follower",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 83,
+      "name": "",
+      "body": "left_follower",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 84,
+      "name": "left_pad1",
+      "body": "left_pad",
+      "friction": [
+        0.7,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.004,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 85,
+      "name": "left_pad2",
+      "body": "left_pad",
+      "friction": [
+        0.6,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.004,
+        1.0
+      ],
+      "solimp": [
+        0.95,
+        0.99,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 1,
+      "conaffinity": 1
+    },
+    {
+      "id": 86,
+      "name": "",
+      "body": "left_pad",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 87,
+      "name": "",
+      "body": "left_silicone_pad",
+      "friction": [
+        1.0,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 3,
+      "contype": 0,
+      "conaffinity": 0
+    },
+    {
+      "id": 88,
+      "name": "cube_visual_geom",
+      "body": "cube",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "solref": [
+        0.02,
+        1.0
+      ],
+      "solimp": [
+        0.9,
+        0.95,
+        0.001,
+        0.5,
+        2.0
+      ],
+      "condim": 6,
+      "contype": 1,
+      "conaffinity": 1
+    }
+  ],
+  "scene_hashes": {
+    "cube.obj": "f7449db6879846defebda26bef1a08db9aad8ebc66ae59bdffa9d1ce0330c3ca",
+    "extrinsics.npz": "00295921916137ca5d5ee61eefbf5c704847dd0597d3de49325c0c2050fc6230",
+    "intrinsics.npz": "50e0dc0b41ddf639a59c7249bcd02f7c7811a5586b5b5b859bd88207053e23b7",
+    "poses.npz": "c9398e7fb3f518f143c665fbd36c4e0f95c252ad23f0ab9ebd015adbf9e700ec",
+    "robot.h5": "cb7de599ec5ebc44899c4d547012b616548ff22b3b1a8f5f467453df632fe393",
+    "scale.npy": "a4b5995cc68939e5c04ccfd9fc710393dcadc64692e8d217e266952b262b4e58",
+    "scene_spec.json": "8a9652547d3c6b8eb5e5b3d0e9cce454abe79f6456ab11eb5451706d7a094ef5"
+  },
+  "source_commit": "880389bda289d2e78154c73ae1b6d23b7a650557"
+}

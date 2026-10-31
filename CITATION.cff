@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Please cite this independent study; cite Agentic Real2Sim and DROID separately when using their components/data."
+type: software
+title: "Robot-Contact State Restoration: Velocity Omission Perturbs Contact Dynamics Without Changing Command Selection"
+authors:
+  - family-names: Wu
+    given-names: Zhijing
+repository-code: "https://github.com/ZhijingWu/robot-contact-state-restoration"
+url: "https://github.com/ZhijingWu/robot-contact-state-restoration"
+abstract: "Independent controlled simulation using Agentic Real2Sim components. State omissions changed physical trajectories but produced 0/16 command-choice flips in a fixed contact regime. No native converted-episode reproduction, real-robot validation, framework defect or algorithmic novelty is claimed."
+keywords:
+  - simulation state restoration
+  - contact dynamics
+  - negative results
+  - reproducibility

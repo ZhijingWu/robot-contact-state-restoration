@@ -1,0 +1,11 @@
+.venv/
+.cache/
+.runs/
+__pycache__/
+*.pyc
+*.log
+*.aux
+*.out
+*.mjb
+.env
+.env.*

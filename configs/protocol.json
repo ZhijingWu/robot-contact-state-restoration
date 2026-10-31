@@ -1,0 +1,48 @@
+{
+  "scope": "Independent grasp/sweep contact using official RobotSceneSim; not native converted episode",
+  "seeds": [
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015
+  ],
+  "checkpoint_frame": 100,
+  "horizon_frames": 36,
+  "actions_joint1_delta_rad": [
+    -0.06,
+    0.0,
+    0.06
+  ],
+  "gripper_target_normalized": 0.7,
+  "target": "checkpoint object XY + .02m along positive joint1 tangential direction (-y,x)",
+  "score": "terminal Euclidean XY distance to target in metres",
+  "conditions": [
+    "fresh",
+    "supported_reset",
+    "full_reload",
+    "independent_fork",
+    "qpos_only",
+    "qpos_qvel",
+    "drop_object_velocity",
+    "drop_robot_velocity",
+    "drop_warmstart"
+  ],
+  "initial_xy_jitter_m": 0.001,
+  "flag": 16383,
+  "state_tolerance": 1e-09,
+  "score_tie_tolerance_m": 1e-07,
+  "paired_frame_time_and_command_tape": true,
+  "external_force": false
+}

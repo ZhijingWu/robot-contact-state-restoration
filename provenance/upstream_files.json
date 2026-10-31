@@ -1,0 +1,823 @@
+{
+  "repository": "https://github.com/agentic-real2sim/agentic_real2sim",
+  "commit": "880389bda289d2e78154c73ae1b6d23b7a650557",
+  "redistributed": false,
+  "files": [
+    {
+      "path": "ar2s/droid_sim/__init__.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/__init__.py",
+      "sha256": "4d3c7bc48a34029128807a8ba25306fdebf8e6a7f698d5e4b9bfab055ab2eef8",
+      "bytes": 59,
+      "git_blob_sha1": "1df6d8514ae2f10b10f44ad015a5456cd722ddae",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "ar2s/droid_sim/_util.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/_util.py",
+      "sha256": "fc5a9b5d8a01cfaa00274ba64294bf80ebd0032fe05072e03cbcc3ea50a00908",
+      "bytes": 4678,
+      "git_blob_sha1": "c83a07c2495b2cfd6bc7cf303c49b9b860d8187f",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "ar2s/droid_sim/pose_store.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/pose_store.py",
+      "sha256": "9d8cf22342ee3d1a42b6022c3694f7004e45b5349f873b1e48b331f93be9c5d3",
+      "bytes": 6254,
+      "git_blob_sha1": "8a4c1a0f9fa07460b9eeb56df9d59d1bc9d59b33",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "ar2s/droid_sim/scene/__init__.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/scene/__init__.py",
+      "sha256": "eee28033156b0698829dc83af2eb70fc1b2e128692a0ddb69d9507a4880bf85e",
+      "bytes": 493,
+      "git_blob_sha1": "0e7fe460579d80f11c0c1aa4732b8cec4835ec65",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "ar2s/droid_sim/scene/config.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/scene/config.py",
+      "sha256": "a63e9db12ffd36682ebacb251754744dc74c133fc5bd67438063fc02e59b9f03",
+      "bytes": 4151,
+      "git_blob_sha1": "878b99dbe9d98e5a75f278f57d7c09b9510171ac",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "ar2s/droid_sim/scene/ground.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/scene/ground.py",
+      "sha256": "d6646523612a84fabec0fa9973cd1aa80f9e3cc487739f6d9e2e09ea6049f67f",
+      "bytes": 4647,
+      "git_blob_sha1": "ad4a40cd75c8af10f2fbfeae3d9e37e38ff3a26f",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "ar2s/droid_sim/scene/mesh_utils.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/scene/mesh_utils.py",
+      "sha256": "b8b7559f364551c037eb7ef51dcb2d9a69a8a76a72c6836dbb4d6bb8f0c478a8",
+      "bytes": 2048,
+      "git_blob_sha1": "15b0bcdf119ef3a7175f35b1593fc6b7c569d742",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "ar2s/droid_sim/scene/robot_profile.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/scene/robot_profile.py",
+      "sha256": "f9c198aefe7b4e47a412dcf71f4a98b53e63b9cc63563937bc22ade5c7daeba0",
+      "bytes": 11287,
+      "git_blob_sha1": "2b5cf03abeac98c4da57bb17154a04940881bdba",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "ar2s/droid_sim/scene/robot_scene_sim.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/scene/robot_scene_sim.py",
+      "sha256": "aea1e0d0ebb2ee5fb44c236a61c709aa94e06a39c1904443441b293780d9d7f8",
+      "bytes": 53028,
+      "git_blob_sha1": "ea603081dfa8ef7bc36539787b62c285a4ef98a0",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "ar2s/droid_sim/scene/shift.py",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/ar2s/droid_sim/scene/shift.py",
+      "sha256": "a022cba8730c1b29016960148ddd7364aff47e1b1ab29de52c5ceef2ef3aaf2e",
+      "bytes": 3580,
+      "git_blob_sha1": "361413bd570f1f93e62babd7beb74e1f49f4e7a2",
+      "license": "NO_REPOSITORY_LEVEL_LICENSE_FOUND"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/LICENSE",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/LICENSE",
+      "sha256": "a6cba85bc92e0cff7a450b1d873c0eaa2e9fc96bf472df0247a26bec77bf3ff9",
+      "bytes": 10173,
+      "git_blob_sha1": "d9a10c0d8e868ebf8da0b3dc95bb0be634c34bfe",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/README.md",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/README.md",
+      "sha256": "87e5bda9f32cb24a7af8546881b490b9543989d81c8892c009100e92fc9f365c",
+      "bytes": 2810,
+      "git_blob_sha1": "383d21da01e24490ce941c223f1e533002431c58",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/finger_0.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/finger_0.obj",
+      "sha256": "215098c0fcdf7192f6c503a37cf49e3efecf8a9e1320f02b17c5584d89cc5b2c",
+      "bytes": 87872,
+      "git_blob_sha1": "104cf631a225dad6a0bdc8f5cf31dc994c75216f",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/finger_1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/finger_1.obj",
+      "sha256": "cf239e9aca26bba09dbbf1c544c47d87cfc9a2f0637c8bb786af750b6d4eca44",
+      "bytes": 64651,
+      "git_blob_sha1": "31364d4804285e0594878adf0972d543453caff1",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/hand.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/hand.stl",
+      "sha256": "94493e94f30fe940f2c8ca2f155c3bbe67bbff406d3edf5e261670d2f0f6e2ed",
+      "bytes": 10084,
+      "git_blob_sha1": "4e820902eba7b9d959a2e0cc8091f4b0f09ed77a",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/hand_0.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/hand_0.obj",
+      "sha256": "b94aab901086f85df04c019b30f43bf9aa23a7ad0443ec80a8c14662a41cabd2",
+      "bytes": 9091,
+      "git_blob_sha1": "d211d88e9235bcf0aef55944c0a4dd442e6043bc",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/hand_1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/hand_1.obj",
+      "sha256": "cd76f7494bb314406a1819c46eb826ee254894f87235714f604a470653d9badb",
+      "bytes": 121863,
+      "git_blob_sha1": "88e32af1cf1e84c6c1a01506481630393b90b8dc",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/hand_2.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/hand_2.obj",
+      "sha256": "e0f44a71712afa5b98eb20355eff17763d3e2e19f459b2bef19abed3727e64b3",
+      "bytes": 596001,
+      "git_blob_sha1": "1611d55faf3a901e13e51e499c19d9fff438c7db",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/hand_3.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/hand_3.obj",
+      "sha256": "a431a06d99e88a1b322b3122a01424ee7704daeaad0bc343b90b9604f014ad0c",
+      "bytes": 902145,
+      "git_blob_sha1": "3fcd6f303523ad716ae56013a9b06acdd8b413d6",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/hand_4.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/hand_4.obj",
+      "sha256": "21f96ef6a8de082e41b1ea9834f1043de359e5d60305541bcb63539581f53bff",
+      "bytes": 151988,
+      "git_blob_sha1": "0b308459702bf47c8e1a17b60486a6f9c6aa77f2",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0.stl",
+      "sha256": "dfc6d94330de8ddb005b311bfdba9f3b8e1aa7c256b71592ee7ff32cb9a9a5aa",
+      "bytes": 10084,
+      "git_blob_sha1": "def070c7077c0ddb33bbe16cd6c75f19dd318734",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_0.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_0.obj",
+      "sha256": "6b9f41a4c203540daaeb7a33cc3d0d6c6a32dc8bba187074eeaf97b3e36b3f9c",
+      "bytes": 296497,
+      "git_blob_sha1": "49d5e9f85dc38178073cfe0ff0cc007f9e0ea5fc",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_1.obj",
+      "sha256": "57673d2ee2a9db2e10c8986ae57c56a7c39c012b60fd26d7d8549553b664a5ed",
+      "bytes": 103978,
+      "git_blob_sha1": "6bce09cfb9561bf387ab052a2ec0d0b514cfa269",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_10.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_10.obj",
+      "sha256": "c9198b9d8534d628d097b0f2b239bb30343353182df098ce0d9db6bc13326848",
+      "bytes": 343308,
+      "git_blob_sha1": "b1475760a6c8bcd12252f74b55482faaf5202359",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_11.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_11.obj",
+      "sha256": "f0adec78d6677b7799d25121981270e8bfe119b5c18d08a91ee37a54ad75f65c",
+      "bytes": 22295,
+      "git_blob_sha1": "b4c3117c70af56a581e50a6758c60c2368d211cb",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_2.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_2.obj",
+      "sha256": "1ca435a2a87a9608a146a47955724d43dd7ce10fc3dd3018800aa98f8ba86e05",
+      "bytes": 590892,
+      "git_blob_sha1": "33fb68f14f85785ce5399a4a2e806ef30aeda624",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_3.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_3.obj",
+      "sha256": "3e9c6334d2b3b47944af3458ee5f20519abc20fe7ee23063bb53405ccab28046",
+      "bytes": 47588,
+      "git_blob_sha1": "2960c9116f94d3d71caa28efd2a4928997c8edaf",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_4.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_4.obj",
+      "sha256": "215d25789704936120f119c0bc1cc7f68516dd3f8f1df61457b71acac3873f26",
+      "bytes": 211200,
+      "git_blob_sha1": "5218f67d8acfc17bf5b66b5d340b87ff557dff73",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_5.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_5.obj",
+      "sha256": "9361b104e93743045107aa5b15fb1a0835ba9c1f355aae71f56403cf6a9c33f6",
+      "bytes": 17023,
+      "git_blob_sha1": "91dd8aff8f2d604d5b19f9d5b4fd9ef90944e740",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_7.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_7.obj",
+      "sha256": "2dc0b8ebbbc80e4c065d71e195adbc384f673438641fac82b07b801b4d2837cb",
+      "bytes": 30699,
+      "git_blob_sha1": "68bcdf9cee7a61b10bd0b64b45cee82adb8da6c9",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_8.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_8.obj",
+      "sha256": "3b8c436999db5586b8eb47bed2b0aa7de6993868b2681b4c04246eeac42fdb7a",
+      "bytes": 3263194,
+      "git_blob_sha1": "51f418a02bc35ae501e2243ffff81457c2fc85b4",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link0_9.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link0_9.obj",
+      "sha256": "45178f97d2b5da6bce11f610212c4ef7d08c73db33a4fc38e1b7f66b93d023f5",
+      "bytes": 105629,
+      "git_blob_sha1": "3f809da9d0f0764dfa780b231edf9a0e8f729ce8",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link1.obj",
+      "sha256": "51091e776b16babdbe2f3849b5c041f921d1f11dd94ac19a0f1c81abf496fbae",
+      "bytes": 3274995,
+      "git_blob_sha1": "f49e713092445a09b81f03552acf9e9d1b43b18e",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link1.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link1.stl",
+      "sha256": "e41a39a94108fcf56aacff603fc91ec80541f4c1af17b51a0de5617f5566e6d2",
+      "bytes": 15084,
+      "git_blob_sha1": "426bcf2d7a04e067e01ab198d0ccfef63c6846e8",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link2.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link2.obj",
+      "sha256": "5c9f8e715de52c3eb71b475de35993b3b96081e02abea9f28c414768877fc59b",
+      "bytes": 3295608,
+      "git_blob_sha1": "a1d5d92c7bf6549927ae704fa98cffeb512ad040",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link2.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link2.stl",
+      "sha256": "370f7605a0fae3529db169ded50f52f171024aa792d4d773bc84197301f6a039",
+      "bytes": 15084,
+      "git_blob_sha1": "b369f1599a3c1356611716621f998bd8b5a8863b",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link3.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link3.stl",
+      "sha256": "0a8d638b9349c6c0eefc4e888636ac4838c4b27170f18a51699321118af709c1",
+      "bytes": 15084,
+      "git_blob_sha1": "25162eeedf286d1e27fdd4ba38950ae90678bb0f",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link3_0.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link3_0.obj",
+      "sha256": "ce2da87f51708e11b189249d41401065dabe89a06e251185a06cef4d5ff27178",
+      "bytes": 3046804,
+      "git_blob_sha1": "039065e91d8e92ed12aed91f3540c36c605197b1",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link3_1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link3_1.obj",
+      "sha256": "2880b7753a7173f38fa87ee21da4dfc7fa7be46fbe07bac5aef9e128513cb118",
+      "bytes": 65260,
+      "git_blob_sha1": "6ce40eb74eabd150e7a066198f983baf8e8ed042",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link3_2.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link3_2.obj",
+      "sha256": "670cff81ae84693769ca4ae658c154cf909d81167e7c8d22b70ea977f2504efa",
+      "bytes": 83591,
+      "git_blob_sha1": "00f2e27de6e5dbe773f7b056ba722421733bb08e",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link3_3.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link3_3.obj",
+      "sha256": "30ede0c812efd0e0b767d134a4eae0b84e0fa407bb6325a5a555e0569b3a3ffd",
+      "bytes": 457684,
+      "git_blob_sha1": "428533ad0c7ba766f46a8ff572527b277c5b3928",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link4.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link4.stl",
+      "sha256": "0180ebb5772ec9840cb049750cffb29a9ddc90311752a16ea34757782ef9e48d",
+      "bytes": 15084,
+      "git_blob_sha1": "76c8c33c3e1e6c184f8c3693b390892c25b179e3",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link4_0.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link4_0.obj",
+      "sha256": "443bf6d178177cf347951ecf107ccd10ca444e605e375b67304579e5f948806f",
+      "bytes": 83486,
+      "git_blob_sha1": "d497e1d381adb44779b39d0273d3ee3e27eb2d3a",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link4_1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link4_1.obj",
+      "sha256": "ca935ec7cc8b3f0e86aa079c76b0b3bf593b1e9830bab0fa7131ac51577c74f0",
+      "bytes": 3148001,
+      "git_blob_sha1": "32d853f4dc53639324923eadfd6eca1c0c101350",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link4_2.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link4_2.obj",
+      "sha256": "c89caf26d379c35bb9e191ee2d91d09ab29ecc792b48d8bc10b39e5b38222175",
+      "bytes": 455522,
+      "git_blob_sha1": "77b8a6d245b45955ecea73c18c80fffb977f23f6",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link4_3.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link4_3.obj",
+      "sha256": "1495d17f45bdb230cf58b0beef9da4e8c9cfe76a3d2d38da89017efe5e093136",
+      "bytes": 67497,
+      "git_blob_sha1": "5f46aea8f9520cc60387d94fadc241a544de1ec7",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link5_0.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link5_0.obj",
+      "sha256": "a3238b8f2af0f2eb66d9fe63dc5d41ac52d5d38507241b5ed10e3cb019ab3e71",
+      "bytes": 824158,
+      "git_blob_sha1": "b81d9466e2c535ab2c8e1a4d665d3e2d361eedbe",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link5_1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link5_1.obj",
+      "sha256": "9d994bbf83ec241e301b5197a6846da13f2a4a0582edb2c0f76962c5549649d6",
+      "bytes": 63174,
+      "git_blob_sha1": "902daf327ca4d9388977bdc1f126e40d70945216",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link5_2.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link5_2.obj",
+      "sha256": "83b4ffe9f772cd7fe182e98640650eebc899aaf01842656574b0416c90dd40a4",
+      "bytes": 3856621,
+      "git_blob_sha1": "d598fc55e7da0843f957d664d79a6da3416d68c0",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link5_collision_0.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link5_collision_0.obj",
+      "sha256": "3e5aa75fb13f193555c3dfb999df91d81df25006a5c3af5338297d78137c129b",
+      "bytes": 3861,
+      "git_blob_sha1": "6d6eb5203b88af66dd209f3866755fdaf718b22d",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link5_collision_1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link5_collision_1.obj",
+      "sha256": "87cd8f621071df010f774cbde789282b8463840dfe704f8bdfa2e29be0142e15",
+      "bytes": 2412,
+      "git_blob_sha1": "2eeeeea1709d0fe8f5232ee81544b1d520f0f5e1",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link5_collision_2.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link5_collision_2.obj",
+      "sha256": "823ab6c8f7b1d79e0844fa071d82a03499ff68e34fddb1ba3451032c22736040",
+      "bytes": 3786,
+      "git_blob_sha1": "6b563bff798a9b4607e3ae7e4e2847f13c0bda0b",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6.stl",
+      "sha256": "20b768e99a0e0440b5754dcca108016434e57937cc356acd9c352ccd3cb27f77",
+      "bytes": 10084,
+      "git_blob_sha1": "2e9594a873f97e572ec68a4e0ab6d65f41f5007e",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_0.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_0.obj",
+      "sha256": "0504c70ebf1b284ee8faae7dcb896b8830bc672a6552015dd5dbd121fa031fb9",
+      "bytes": 157563,
+      "git_blob_sha1": "a1816531102045e49d1bb7e533df8eb1dea2e87f",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_1.obj",
+      "sha256": "45f7ca77695198b6d86ec2417ad4e42e6275044f0f96266699ee8e1057757ac1",
+      "bytes": 27106,
+      "git_blob_sha1": "7548d77d2984209889c7fa4c4afc36427783d021",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_10.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_10.obj",
+      "sha256": "365f26c21d10332cab8d8704645cb46930c30b3085956f2d097498c793f24db4",
+      "bytes": 368502,
+      "git_blob_sha1": "9ff9ebdc5ce9055b2c2b0abb83de8d3fd6a04b83",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_11.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_11.obj",
+      "sha256": "8ae61e08b3ad064f25bbf03b22e59cc15d65883b5a7ce92711aff29df2493901",
+      "bytes": 32653,
+      "git_blob_sha1": "4fdbfcd4255c063a62f3425ef15ecd03d511978d",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_12.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_12.obj",
+      "sha256": "f28d1bfd62b0244ffd19fb35fe9edefdf583d3c9167db944e87185d919e1d021",
+      "bytes": 3894,
+      "git_blob_sha1": "e5e59fa4b6d69d7f9133f9761456432c928d6902",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_13.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_13.obj",
+      "sha256": "0a55fa92dccb261d07200e6565fca4c850fd17f0c1ecf38821c0b97d51796c7d",
+      "bytes": 3798,
+      "git_blob_sha1": "e3e7a2e37284f9c66845b24708b5f3b20216cfd6",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_14.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_14.obj",
+      "sha256": "750ae3ee4781e62e3a045c662195247b03f6642b05aa93104f08258e5f6eba26",
+      "bytes": 444469,
+      "git_blob_sha1": "3a28c781c3de90a5b23c1d78e1faf357888f5ec7",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_15.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_15.obj",
+      "sha256": "5999c1c2497a004a7c4bbe034cdf13744f839d85ae7a11b1bc386c48a3e642e6",
+      "bytes": 668552,
+      "git_blob_sha1": "154c260c3664c349a83ea86cec2586368544a5c8",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_16.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_16.obj",
+      "sha256": "551d7a8b37c53e7a152d008b4e36992e5b5abe74a4be18b57ee6319c27def09f",
+      "bytes": 3675358,
+      "git_blob_sha1": "ef541608c6e1722dc09c3752a06675110fbef7d7",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_2.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_2.obj",
+      "sha256": "e54eee4d8232947ee8af65afd5a067e09dac2da6e7e585cb1dccb65496457da0",
+      "bytes": 9916,
+      "git_blob_sha1": "6281d594fdad7ea84c116a2d515eca74fe87711d",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_3.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_3.obj",
+      "sha256": "d4f6a25ef32fa1fa4734146981994ee760232cb077c80fea6487d78a077c7f27",
+      "bytes": 11943,
+      "git_blob_sha1": "212943b17bd21713eab8279ad905b8323d366e09",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_4.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_4.obj",
+      "sha256": "be353480fe71d46f7a96f0a3cbb7e112caaf8d88368826f321a36a253c8749b2",
+      "bytes": 13846,
+      "git_blob_sha1": "17aff9f4a6d4103e35ae723c927a0749eaa67df3",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_5.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_5.obj",
+      "sha256": "7c87664623c3e1a6cb330db273227a69626dc5e53b4caff1d4ee7911eb3340c6",
+      "bytes": 11841,
+      "git_blob_sha1": "af8b5cc59cb1c5c9c22993b7f2481b9e6baf63cb",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_6.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_6.obj",
+      "sha256": "8fbc031e0d07b795ebf99115c75223141caaba317cab569159f3d477a7821681",
+      "bytes": 12597,
+      "git_blob_sha1": "db6f0d570a3f5bbfc52d0e12424f10dd3f79298b",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_7.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_7.obj",
+      "sha256": "7dc5ebb799fe281aab27d6e84e7a4efa0a8e42da2369ec83de3ea3f206f62d73",
+      "bytes": 4382,
+      "git_blob_sha1": "eb3a586c82ae32cfb63546b83a0d9142fdb8e9af",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_8.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_8.obj",
+      "sha256": "e3f77381817a341030f9dcc4c4aa7c559f80411b453fd87eb0fefecca82151bf",
+      "bytes": 9131,
+      "git_blob_sha1": "dc28c6d1d77f68a5796234a9702b6aa8776b5b60",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link6_9.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link6_9.obj",
+      "sha256": "25a56ea9b02a03b6cb5a81f31c54f54d0185e1a0b3937c37e4289d896e50215a",
+      "bytes": 17616,
+      "git_blob_sha1": "56421f8d7f1dbc11460641e60fd419c83442de7b",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link7.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link7.stl",
+      "sha256": "92ac6afcf7574c034d3170d8a68e95ac9048ab9d0dd5bbd8311b86e551b9ab1c",
+      "bytes": 10084,
+      "git_blob_sha1": "0532d057507637533d25f4b3ed451f213685a61d",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link7_0.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link7_0.obj",
+      "sha256": "04586b0bde011715cfc22072ac72fe0717eb4d4817bcf665987ce6cd88eb2b93",
+      "bytes": 1362355,
+      "git_blob_sha1": "f87d32aa31656ceb036a4bedfddba0d9378b1336",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link7_1.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link7_1.obj",
+      "sha256": "c3f72289f394c9d6749a4a327fb11f05b203c37c95032c92f28019b40ebe7e00",
+      "bytes": 121358,
+      "git_blob_sha1": "762c0a8583367c5450efcfc74007c80d6b25ae14",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link7_2.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link7_2.obj",
+      "sha256": "d2faecedb304d0989040d082410378dc949dbbda23bd18c05134f08aae984db5",
+      "bytes": 208907,
+      "git_blob_sha1": "2a35c5f8240c9fa0b163e201b01a458e3af8fa08",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link7_3.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link7_3.obj",
+      "sha256": "b62d87c4d4bdb7b281ed341d347c39dad0e50bf36aed8ac11d050073701d5f70",
+      "bytes": 123684,
+      "git_blob_sha1": "8ff85cf7722b24050e56cc4af50eeb24d48eb8c8",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link7_4.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link7_4.obj",
+      "sha256": "cb78ccb61fd4ad6c7bff4c4d2e6cb41e1964a5a3e1a28e67c0c6202371cfc018",
+      "bytes": 85732,
+      "git_blob_sha1": "2cdad2df7a5771fc0a1440992a5738ab9613a1d5",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link7_5.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link7_5.obj",
+      "sha256": "099071d3090b51471ba52f4f90814fd3089f4975d196e4d488117073d0bfe491",
+      "bytes": 226402,
+      "git_blob_sha1": "860d25fc767ed54c5c5ab92981de716a88496dc2",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link7_6.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link7_6.obj",
+      "sha256": "99469e2d95ab74ce0292f2f16954c87a8a7dc16652e62e970fe37c94330a81bb",
+      "bytes": 99900,
+      "git_blob_sha1": "9c00fa0369770bbefdcc6e423b7e99e83aa69b77",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/assets/link7_7.obj",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/assets/link7_7.obj",
+      "sha256": "426c3db8a19373f3dc73d4bec672e948121b2914c10e2e7b9c7ea80643a19e54",
+      "bytes": 792162,
+      "git_blob_sha1": "19d7b0f6621e64114fc0ca49f87e8ebeade4d713",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/dual_panda.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/dual_panda.xml",
+      "sha256": "4fdfe9a3aac329f78861c24d9c64dabf3befd4efa05efb8ace0d7c8007254897",
+      "bytes": 29060,
+      "git_blob_sha1": "9c059a7661754eb5ca87c9ce4dd8ef8ac4182366",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/dual_panda_scene.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/dual_panda_scene.xml",
+      "sha256": "0b15b6bf37459b0b7d2f361827f80caf3f65baa0cf24a99d16ae3469f4354c66",
+      "bytes": 2412,
+      "git_blob_sha1": "126869536610aa7ba1ccddb732c5baf687e309eb",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/hand.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/hand.xml",
+      "sha256": "d2a6539d0fd7c55c75c14f11c78f04505ee33f31d93e6112e3ad7120e5ee786a",
+      "bytes": 4547,
+      "git_blob_sha1": "b386048ef08f0ddb93a5f902efb09865be89af5f",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/mjx_panda.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/mjx_panda.xml",
+      "sha256": "bbe0d4b7b3084f25f7819b684280a76fb54ad624b58a89773ea491aa5df06219",
+      "bytes": 14584,
+      "git_blob_sha1": "de6d1cde12e84a67aef21f4ace39b0506a7ec3da",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/mjx_panda_nohand.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/mjx_panda_nohand.xml",
+      "sha256": "c52ae38d798682e62f8b4828115f747f3bb056a12880927cb72df7a8a049855b",
+      "bytes": 10418,
+      "git_blob_sha1": "2b5d806b5f20dd21402279445cf891f34b99e7bd",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/mjx_scene.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/mjx_scene.xml",
+      "sha256": "633ff4819cd9c7c9f59d3990db89879501ece5233a5d4e2d5b69359a6308988b",
+      "bytes": 1394,
+      "git_blob_sha1": "285f692f562cae94e5da7c1d9cb44c00ed678f6d",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/mjx_single_cube.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/mjx_single_cube.xml",
+      "sha256": "be4824e759da1f7f29c659786566f7299e1cb251162623b981d5196047560bc3",
+      "bytes": 1185,
+      "git_blob_sha1": "47e6ac1e4b577e1d3e259ec1a4ad44ad7369c88d",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/panda.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/panda.xml",
+      "sha256": "4cbba59c445699a6a162b56307c8437b7db36d12015c7c87cdd8591209f7745f",
+      "bytes": 14642,
+      "git_blob_sha1": "b473464a5fe2810f156f162d24bc9b5228bd8c07",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/panda_nohand.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/panda_nohand.xml",
+      "sha256": "a3290b7290075baef3490a5f247af02997a4c287d7f358c3e083880732e3b3b8",
+      "bytes": 11177,
+      "git_blob_sha1": "08464576f4c9ef2d28fe17091b08b5b33aa1fbd6",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/franka_emika_panda/scene.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/scene.xml",
+      "sha256": "59b4ad053a3d354eb5dbbc10137b220ae10312478b95a8fa41f82fa5dd48908f",
+      "bytes": 865,
+      "git_blob_sha1": "4b322a111cc8ed315e0692c8ca1bb920b03a3abb",
+      "license": "Apache-2.0"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/2f85.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/2f85.xml",
+      "sha256": "22f124ed33be07ecf1db304fdc5d6280d7bef6bb823c2e5b84c4fc85afa38cdb",
+      "bytes": 9624,
+      "git_blob_sha1": "746a01d2e736c6fd600457d556a189fa2ab4bca4",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/CHANGELOG.md",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/CHANGELOG.md",
+      "sha256": "38082db6de93a95ef85a319c2a8cac8b1dbcff597a718d8cdf843c339e7b23a6",
+      "bytes": 146,
+      "git_blob_sha1": "07d5897cf5f219e9f706df6eec5eaa67d6a6b95f",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/LICENSE",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/LICENSE",
+      "sha256": "3d5edd18d1e22a17666e9bb84270171ed5ac90b192d24e0177fd171708ea2316",
+      "bytes": 1297,
+      "git_blob_sha1": "78c0f73570702ddd1fa0a7140d3bb7308ddd9774",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/README.md",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/README.md",
+      "sha256": "a10f34027d417f8f7b9102b74b42976031f0246f3090444728ab322bc4632aaf",
+      "bytes": 1367,
+      "git_blob_sha1": "45fa0f6068685edd3b6cf89bbfd48b926c2631c6",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/assets/base.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/assets/base.stl",
+      "sha256": "1c7b9f2bd92d705fc4e897c94e905973a3c05f406845e942229433deb7041453",
+      "bytes": 1712484,
+      "git_blob_sha1": "1b3bb6af165ee13361dec7b8346ba7f8b6c6b22d",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/assets/base_mount.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/assets/base_mount.stl",
+      "sha256": "87971dfdd6e5311b5a723e7b73c4701ebf5c2364df671500f30dfc1c53c8e61a",
+      "bytes": 1091784,
+      "git_blob_sha1": "69ace5fe7be5e9ae55b39111622959a931ab9b7f",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/assets/coupler.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/assets/coupler.stl",
+      "sha256": "d5ee95e62f8415bf5b6e503c831a958f5fc1990bf9b2865329ec38a28932727c",
+      "bytes": 89084,
+      "git_blob_sha1": "170b0dad58d839c2d2f7d1d8328df4413a76057d",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/assets/driver.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/assets/driver.stl",
+      "sha256": "bbd6e868b1778bead60d2516c7ede581d7ad4e431744b1828757d6ea5129c112",
+      "bytes": 67084,
+      "git_blob_sha1": "57595939f486f75f55dc2ef49b8f805d56f78f58",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/assets/follower.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/assets/follower.stl",
+      "sha256": "633793332c081641ce200df27a40643cc293b29956e3cb5cb29cb811c33ef1c7",
+      "bytes": 110484,
+      "git_blob_sha1": "3cda9be71fb61d292b3c98848f0d820a11610422",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/assets/pad.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/assets/pad.stl",
+      "sha256": "4af1fa8d9bb285abecbf5dfc88e74cb30f059a7a074c2030dc35e9ee4316019d",
+      "bytes": 15084,
+      "git_blob_sha1": "fa0ef62b3dea4dd2e0c55005beb744c8fafc0066",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/assets/silicone_pad.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/assets/silicone_pad.stl",
+      "sha256": "ca20c0fa61e6d3ce7b04bed25360e048e31dfd88ace04187aa6d9e8f4ca3fd0f",
+      "bytes": 15084,
+      "git_blob_sha1": "9a0de4352fd9a9adbd48ee8768d78553b9a407f8",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/assets/spring_link.stl",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/assets/spring_link.stl",
+      "sha256": "4fb74a8a0d76c0e471cf19fd48bc676fd5b19123798e7a39eb6aa56869354283",
+      "bytes": 84884,
+      "git_blob_sha1": "d92de810c4039750286e788d065008090086b06e",
+      "license": "BSD-2-Clause"
+    },
+    {
+      "path": "assets/robot/robotiq_2f85/scene.xml",
+      "url": "https://raw.githubusercontent.com/agentic-real2sim/agentic_real2sim/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/scene.xml",
+      "sha256": "7e584c60ba751b6572d66982adbc93923a82a85d7d3880c1242b9d4005ff4493",
+      "bytes": 1440,
+      "git_blob_sha1": "5694b27efb9e31ee03adfb7d113133d3cbd2a6cf",
+      "license": "BSD-2-Clause"
+    }
+  ]
+}

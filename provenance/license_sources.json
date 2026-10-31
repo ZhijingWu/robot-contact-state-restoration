@@ -1,0 +1,15 @@
+{
+  "accessed_date": "2026-10-31",
+  "droid_paper": {
+    "url": "https://arxiv.org/pdf/2403.12945",
+    "sha256": "9e40a9c934ce78ea315d2c05593d60f9e18edf6dcd3785cd66439518965c3b07",
+    "dataset_license_statement": "The paper states that the full DROID dataset is released under CC-BY 4.0. The separately hosted paper is not redistributed."
+  },
+  "ar2s_tree": {
+    "url": "https://api.github.com/repos/agentic-real2sim/agentic_real2sim/git/trees/880389bda289d2e78154c73ae1b6d23b7a650557?recursive=1",
+    "sha256": "ab37b973d1caade0d5bb18af47101ebc4214468321c1f20cfddcc966eb5d1b76",
+    "root_license_found": false
+  },
+  "franka_notice": "https://github.com/agentic-real2sim/agentic_real2sim/blob/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/franka_emika_panda/LICENSE",
+  "robotiq_notice": "https://github.com/agentic-real2sim/agentic_real2sim/blob/880389bda289d2e78154c73ae1b6d23b7a650557/assets/robot/robotiq_2f85/LICENSE"
+}

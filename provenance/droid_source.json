@@ -1,0 +1,14 @@
+{
+  "dataset": "DROID: A Large-Scale In-the-Wild Robot Manipulation Dataset",
+  "creators": "Alexander Khazatsky, Karl Pertsch, Suraj Nair, et al.",
+  "paper": "https://arxiv.org/abs/2403.12945",
+  "license": "CC-BY-4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "official_docs": "https://droid-dataset.github.io/droid/the-droid-dataset.html",
+  "raw_source_url": "https://storage.googleapis.com/download/storage/v1/b/gresearch/o/robotics%2Fdroid_raw%2F1.0.1%2FRAIL%2Fsuccess%2F2023-04-17%2FMon_Apr_17_14:48:05_2023%2Ftrajectory.h5?generation=1710758953771654&alt=media",
+  "raw_sha256": "a78cb687680a9fcc9fa78f7355d00203cd08173a118936d72f306657321ba864",
+  "generation": "1710758953771654",
+  "initial_posture": "Raw action/joint_position, zero-based frame 40; seven numeric joint coordinates only. The independent 80-frame target tape reuses that posture with scripted joint-1 changes.",
+  "redistribution": "No original raw trajectory, imagery, video, collector metadata or official flat export is bundled. Independently generated numeric simulation traces and the derived target tape are included with this attribution.",
+  "modifications": "Independent box/contact geometry, gripper closure, joint-1 sweep and continuation commands; not a reconstruction of the source DROID interaction."
+}

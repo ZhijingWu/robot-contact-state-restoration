@@ -1,0 +1,140 @@
+{
+  "paired_seeds": 16,
+  "seeds": [
+    3000,
+    3001,
+    3002,
+    3003,
+    3004,
+    3005,
+    3006,
+    3007,
+    3008,
+    3009,
+    3010,
+    3011,
+    3012,
+    3013,
+    3014,
+    3015
+  ],
+  "conditions": {
+    "fresh": {
+      "paired_seeds": 16,
+      "choice_flips": 0,
+      "max_coordinate_discrepancy_m": 0.0,
+      "max_score_perturbation_m": 0.0,
+      "max_normal_force_sum_discrepancy_N": 0.0,
+      "max_reference_scored_selection_regret_m": 0.0,
+      "full_control_arrays_exact": true
+    },
+    "supported_reset": {
+      "paired_seeds": 16,
+      "choice_flips": 0,
+      "max_coordinate_discrepancy_m": 0.0,
+      "max_score_perturbation_m": 0.0,
+      "max_normal_force_sum_discrepancy_N": 0.0,
+      "max_reference_scored_selection_regret_m": 0.0,
+      "full_control_arrays_exact": true
+    },
+    "full_reload": {
+      "paired_seeds": 16,
+      "choice_flips": 0,
+      "max_coordinate_discrepancy_m": 0.0,
+      "max_score_perturbation_m": 0.0,
+      "max_normal_force_sum_discrepancy_N": 0.0,
+      "max_reference_scored_selection_regret_m": 0.0,
+      "full_control_arrays_exact": true
+    },
+    "independent_fork": {
+      "paired_seeds": 16,
+      "choice_flips": 0,
+      "max_coordinate_discrepancy_m": 0.0,
+      "max_score_perturbation_m": 0.0,
+      "max_normal_force_sum_discrepancy_N": 0.0,
+      "max_reference_scored_selection_regret_m": 0.0,
+      "full_control_arrays_exact": true
+    },
+    "qpos_only": {
+      "paired_seeds": 16,
+      "choice_flips": 0,
+      "max_coordinate_discrepancy_m": 0.0007038157109165166,
+      "max_score_perturbation_m": 3.388700127388011e-05,
+      "max_normal_force_sum_discrepancy_N": 2.789267149038551,
+      "max_reference_scored_selection_regret_m": 0.0,
+      "full_control_arrays_exact": null
+    },
+    "qpos_qvel": {
+      "paired_seeds": 16,
+      "choice_flips": 0,
+      "max_coordinate_discrepancy_m": 8.192656342220772e-07,
+      "max_score_perturbation_m": 4.5699184852976416e-08,
+      "max_normal_force_sum_discrepancy_N": 0.018565868865721313,
+      "max_reference_scored_selection_regret_m": 0.0,
+      "full_control_arrays_exact": null
+    },
+    "drop_object_velocity": {
+      "paired_seeds": 16,
+      "choice_flips": 0,
+      "max_coordinate_discrepancy_m": 0.0001094894313344863,
+      "max_score_perturbation_m": 4.160441481979027e-06,
+      "max_normal_force_sum_discrepancy_N": 7.11115263283466,
+      "max_reference_scored_selection_regret_m": 0.0,
+      "full_control_arrays_exact": null
+    },
+    "drop_robot_velocity": {
+      "paired_seeds": 16,
+      "choice_flips": 0,
+      "max_coordinate_discrepancy_m": 0.0005711016413090242,
+      "max_score_perturbation_m": 2.3891963490622198e-05,
+      "max_normal_force_sum_discrepancy_N": 3.920225063833186,
+      "max_reference_scored_selection_regret_m": 0.0,
+      "full_control_arrays_exact": null
+    },
+    "drop_warmstart": {
+      "paired_seeds": 16,
+      "choice_flips": 0,
+      "max_coordinate_discrepancy_m": 8.192656342220772e-07,
+      "max_score_perturbation_m": 4.5699184852976416e-08,
+      "max_normal_force_sum_discrepancy_N": 0.018565868865721313,
+      "max_reference_scored_selection_regret_m": 0.0,
+      "full_control_arrays_exact": null
+    }
+  },
+  "minimum_reference_candidate_margin_m": 0.012356339325469942,
+  "historical_repeat": {
+    "npz_files": 448,
+    "arrays": 1424,
+    "all_array_byte_hashes_match": true,
+    "repeat_payload": "The independent repeat is represented by its per-array byte hashes, not duplicate NPZ payloads."
+  },
+  "statistics": {
+    "design": "Paired fixed-seed comparison; no hypothesis-test significance claim.",
+    "observed_qpos_only_reference_scored_regret_m": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "zero_of_16_one_sided_binomial95_upper": 0.17074972298248092,
+    "binomial_scope": "Only an IID interpretation under the narrow tested perturbation distribution; not a bound over arbitrary tasks."
+  },
+  "units": "All distances/scores in metres; force in N. Coordinate discrepancy is an absolute XYZ component maximum, not Euclidean displacement.",
+  "mujoco_state": {
+    "version": "3.17.0",
+    "mask": 16383,
+    "values": 247
+  }
+}

@@ -1,0 +1,5186 @@
+[
+  {
+    "seed": 3000,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035233240383966115,
+      0.008100697741647865,
+      0.020703109434327065
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2635965177471,
+      476.9455506279331,
+      476.41761247526597
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.00012696912615991107,
+      -0.00034384077775216886
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3000,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035233240383966115,
+      0.008100697741647865,
+      0.020703109434327065
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2635965177471,
+      476.9455506279331,
+      476.41761247526597
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.00012696912615991107,
+      -0.00034384077775216886
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3000,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035233240383966115,
+      0.008100697741647865,
+      0.020703109434327065
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2635965177471,
+      476.9455506279331,
+      476.41761247526597
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.00012696912615991107,
+      -0.00034384077775216886
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3000,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035233240383966115,
+      0.008100697741647865,
+      0.020703109434327065
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2635965177471,
+      476.9455506279331,
+      476.41761247526597
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.00012696912615991107,
+      -0.00034384077775216886
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3000,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03524391515629183,
+      0.008132776570470197,
+      0.020703986249590887
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.207882882233157e-05,
+    "object_position_difference_max_m": 0.0007001270365148138,
+    "robot_q_difference_max_rad": 0.000570608320363793,
+    "trace_max_abs": 2.328598109379982,
+    "normal_impulse_sum_Ns": [
+      476.28657037782324,
+      476.94753799661225,
+      476.39619850045085
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.00012696912615991107,
+      -0.00034384077775216886
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3000,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03523323355971123,
+      0.00810069763559533,
+      0.02070311114127236
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 6.8242548834085426e-09,
+    "object_position_difference_max_m": 6.934429885863125e-08,
+    "robot_q_difference_max_rad": 6.641661176587377e-08,
+    "trace_max_abs": 0.003932633064664515,
+    "normal_impulse_sum_Ns": [
+      476.2636169858713,
+      476.9455498803836,
+      476.41760709995305
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.00012696912615991107,
+      -0.00034384077775216886
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3000,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.1394924174006885,
+    "scores_m": [
+      0.03523595803559774,
+      0.0081037792486876,
+      0.020699102170322847
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.0072640042181085e-06,
+    "object_position_difference_max_m": 0.00010652795141785631,
+    "robot_q_difference_max_rad": 0.0001043381362404415,
+    "trace_max_abs": 7.022774806101779,
+    "normal_impulse_sum_Ns": [
+      476.25834549583675,
+      476.9355440481682,
+      476.41076209708484
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.00012696912615991107,
+      -0.00034384077775216886
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3000,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13647866379017673,
+    "scores_m": [
+      0.03524267993301753,
+      0.008123162856931048,
+      0.020710938281888448
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.2465115283183332e-05,
+    "object_position_difference_max_m": 0.0005570384446841881,
+    "robot_q_difference_max_rad": 0.00047690235065608877,
+    "trace_max_abs": 3.822300363447539,
+    "normal_impulse_sum_Ns": [
+      476.2817992911306,
+      476.9476137181466,
+      476.3933792050845
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.00012696912615991107,
+      -0.00034384077775216886
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3000,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.6245026937263254,
+    "scores_m": [
+      0.03523323355971123,
+      0.00810069763559533,
+      0.02070311114127236
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 6.8242548834085426e-09,
+    "object_position_difference_max_m": 6.934429885863125e-08,
+    "robot_q_difference_max_rad": 6.641661176587377e-08,
+    "trace_max_abs": 0.003932633064664515,
+    "normal_impulse_sum_Ns": [
+      476.2636169858713,
+      476.9455498803836,
+      476.41760709995305
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.00012696912615991107,
+      -0.00034384077775216886
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3001,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.0349032238641685,
+      0.00794121264538433,
+      0.0208098044813205
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2203061779174,
+      476.91370128571566,
+      476.36049178858013
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9383333333333415,
+    "initial_xy_jitter": [
+      0.0008354030411367997,
+      0.0006598637175694285
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3001,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.0349032238641685,
+      0.00794121264538433,
+      0.0208098044813205
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2203061779174,
+      476.91370128571566,
+      476.36049178858013
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9383333333333415,
+    "initial_xy_jitter": [
+      0.0008354030411367997,
+      0.0006598637175694285
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3001,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.0349032238641685,
+      0.00794121264538433,
+      0.0208098044813205
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2203061779174,
+      476.91370128571566,
+      476.36049178858013
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9383333333333415,
+    "initial_xy_jitter": [
+      0.0008354030411367997,
+      0.0006598637175694285
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3001,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.0349032238641685,
+      0.00794121264538433,
+      0.0208098044813205
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2203061779174,
+      476.91370128571566,
+      476.36049178858013
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9383333333333415,
+    "initial_xy_jitter": [
+      0.0008354030411367997,
+      0.0006598637175694285
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3001,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03491478668982179,
+      0.00797462644398895,
+      0.02081065390942664
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.341379860461943e-05,
+    "object_position_difference_max_m": 0.0006959274729338161,
+    "robot_q_difference_max_rad": 0.0005653534668761946,
+    "trace_max_abs": 2.384862605293847,
+    "normal_impulse_sum_Ns": [
+      476.24034817142683,
+      476.9150655235662,
+      476.3396835159677
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9383333333333415,
+    "initial_xy_jitter": [
+      0.0008354030411367997,
+      0.0006598637175694285
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3001,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03490321373749851,
+      0.00794121252022467,
+      0.020809806472545565
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 1.0126669988674841e-08,
+    "object_position_difference_max_m": 1.2194265641696234e-07,
+    "robot_q_difference_max_rad": 1.2160898199553571e-07,
+    "trace_max_abs": 0.00747213943634506,
+    "normal_impulse_sum_Ns": [
+      476.2203633546728,
+      476.91370033772375,
+      476.36048507209534
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9383333333333415,
+    "initial_xy_jitter": [
+      0.0008354030411367997,
+      0.0006598637175694285
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3001,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13767153016969078,
+    "scores_m": [
+      0.034906186469986944,
+      0.007944552471448395,
+      0.0208062670501533
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.5374311671970693e-06,
+    "object_position_difference_max_m": 0.0001094894313344863,
+    "robot_q_difference_max_rad": 0.00010668204839136891,
+    "trace_max_abs": 6.962307756781229,
+    "normal_impulse_sum_Ns": [
+      476.2123460591873,
+      476.90384823090886,
+      476.35237144786055
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9383333333333415,
+    "initial_xy_jitter": [
+      0.0008354030411367997,
+      0.0006598637175694285
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3001,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.1361874420073208,
+    "scores_m": [
+      0.03491367113054262,
+      0.007964422566920568,
+      0.020817000009291587
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.3209921536237674e-05,
+    "object_position_difference_max_m": 0.0005469198894104688,
+    "robot_q_difference_max_rad": 0.00046892190707770176,
+    "trace_max_abs": 3.772201052818332,
+    "normal_impulse_sum_Ns": [
+      476.23837692648385,
+      476.9153785938906,
+      476.335885535029
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9383333333333415,
+    "initial_xy_jitter": [
+      0.0008354030411367997,
+      0.0006598637175694285
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3001,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.618121455905706,
+    "scores_m": [
+      0.03490321373749851,
+      0.00794121252022467,
+      0.020809806472545565
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 1.0126669988674841e-08,
+    "object_position_difference_max_m": 1.2194265641696234e-07,
+    "robot_q_difference_max_rad": 1.2160898199553571e-07,
+    "trace_max_abs": 0.00747213943634506,
+    "normal_impulse_sum_Ns": [
+      476.2203633546728,
+      476.91370033772375,
+      476.36048507209534
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9383333333333415,
+    "initial_xy_jitter": [
+      0.0008354030411367997,
+      0.0006598637175694285
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3002,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03545217925164453,
+      0.008231718999893207,
+      0.02058805832536315
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.19021651791326,
+      476.8443292353218,
+      476.3649858831552
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9566666666666752,
+    "initial_xy_jitter": [
+      -0.000703196126288445,
+      6.258630569151995e-05
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3002,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03545217925164453,
+      0.008231718999893207,
+      0.02058805832536315
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.19021651791326,
+      476.8443292353218,
+      476.3649858831552
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9566666666666752,
+    "initial_xy_jitter": [
+      -0.000703196126288445,
+      6.258630569151995e-05
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3002,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03545217925164453,
+      0.008231718999893207,
+      0.02058805832536315
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.19021651791326,
+      476.8443292353218,
+      476.3649858831552
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9566666666666752,
+    "initial_xy_jitter": [
+      -0.000703196126288445,
+      6.258630569151995e-05
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3002,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03545217925164453,
+      0.008231718999893207,
+      0.02058805832536315
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.19021651791326,
+      476.8443292353218,
+      476.3649858831552
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9566666666666752,
+    "initial_xy_jitter": [
+      -0.000703196126288445,
+      6.258630569151995e-05
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3002,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03546228950996546,
+      0.008263770717343997,
+      0.02058217054738719
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.2051717450789705e-05,
+    "object_position_difference_max_m": 0.0006997866945187003,
+    "robot_q_difference_max_rad": 0.0005626821148212446,
+    "trace_max_abs": 2.75551190287581,
+    "normal_impulse_sum_Ns": [
+      476.2133971674715,
+      476.8473573067997,
+      476.3677706937423
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9566666666666752,
+    "initial_xy_jitter": [
+      -0.000703196126288445,
+      6.258630569151995e-05
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3002,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03545217398006674,
+      0.008231718889655477,
+      0.020588060005177326
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 5.271577792342885e-09,
+    "object_position_difference_max_m": 5.7595422986445044e-08,
+    "robot_q_difference_max_rad": 5.308065809117579e-08,
+    "trace_max_abs": 0.0033188927980063454,
+    "normal_impulse_sum_Ns": [
+      476.19023046240653,
+      476.84432857462696,
+      476.3649805238086
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9566666666666752,
+    "initial_xy_jitter": [
+      -0.000703196126288445,
+      6.258630569151995e-05
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3002,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13980611605939441,
+    "scores_m": [
+      0.03545486264257497,
+      0.008234589274266383,
+      0.020584038212050272
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.020113312876855e-06,
+    "object_position_difference_max_m": 0.00010298669140396122,
+    "robot_q_difference_max_rad": 0.00010119499982961687,
+    "trace_max_abs": 7.11115263283466,
+    "normal_impulse_sum_Ns": [
+      476.1826479458176,
+      476.8346506921101,
+      476.35758146129467
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9566666666666752,
+    "initial_xy_jitter": [
+      -0.000703196126288445,
+      6.258630569151995e-05
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3002,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.1365545819676912,
+    "scores_m": [
+      0.03546091529856844,
+      0.008254519172624963,
+      0.020587420331108164
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.2800172731755886e-05,
+    "object_position_difference_max_m": 0.000568276793964817,
+    "robot_q_difference_max_rad": 0.0004852835937823874,
+    "trace_max_abs": 3.9105394537879192,
+    "normal_impulse_sum_Ns": [
+      476.2090547609655,
+      476.8478570366213,
+      476.37090669085404
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9566666666666752,
+    "initial_xy_jitter": [
+      -0.000703196126288445,
+      6.258630569151995e-05
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3002,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.6307121961951823,
+    "scores_m": [
+      0.03545217398006674,
+      0.008231718889655477,
+      0.020588060005177326
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 5.271577792342885e-09,
+    "object_position_difference_max_m": 5.7595422986445044e-08,
+    "robot_q_difference_max_rad": 5.308065809117579e-08,
+    "trace_max_abs": 0.0033188927980063454,
+    "normal_impulse_sum_Ns": [
+      476.19023046240653,
+      476.84432857462696,
+      476.3649805238086
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9566666666666752,
+    "initial_xy_jitter": [
+      -0.000703196126288445,
+      6.258630569151995e-05
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3003,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03490144587605993,
+      0.008030519500265804,
+      0.0205947625459592
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      475.950564355246,
+      476.6389198349045,
+      476.10216947036986
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9366666666666748,
+    "initial_xy_jitter": [
+      -0.0008754627998213392,
+      0.0007729540835532389
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3003,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03490144587605993,
+      0.008030519500265804,
+      0.0205947625459592
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      475.950564355246,
+      476.6389198349045,
+      476.10216947036986
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9366666666666748,
+    "initial_xy_jitter": [
+      -0.0008754627998213392,
+      0.0007729540835532389
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3003,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03490144587605993,
+      0.008030519500265804,
+      0.0205947625459592
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      475.950564355246,
+      476.6389198349045,
+      476.10216947036986
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9366666666666748,
+    "initial_xy_jitter": [
+      -0.0008754627998213392,
+      0.0007729540835532389
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3003,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03490144587605993,
+      0.008030519500265804,
+      0.0205947625459592
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      475.950564355246,
+      476.6389198349045,
+      476.10216947036986
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9366666666666748,
+    "initial_xy_jitter": [
+      -0.0008754627998213392,
+      0.0007729540835532389
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3003,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03491249941254545,
+      0.008062090891081033,
+      0.02059541903161074
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.157139081522847e-05,
+    "object_position_difference_max_m": 0.0006922627686393457,
+    "robot_q_difference_max_rad": 0.0005640959153163962,
+    "trace_max_abs": 2.469106344776492,
+    "normal_impulse_sum_Ns": [
+      475.97438161367404,
+      476.6357047411962,
+      476.0807439246875
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9366666666666748,
+    "initial_xy_jitter": [
+      -0.0008754627998213392,
+      0.0007729540835532389
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3003,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.034901400176875076,
+      0.0080305193620436,
+      0.020594764741978938
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.5699184852976416e-08,
+    "object_position_difference_max_m": 8.192656342220772e-07,
+    "robot_q_difference_max_rad": 8.714311849900014e-07,
+    "trace_max_abs": 0.018565868865721313,
+    "normal_impulse_sum_Ns": [
+      475.94996874441233,
+      476.63891886178595,
+      476.1021617088524
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9366666666666748,
+    "initial_xy_jitter": [
+      -0.0008754627998213392,
+      0.0007729540835532389
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3003,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13884460265054802,
+    "scores_m": [
+      0.03490427962696083,
+      0.008033832391445693,
+      0.02059123275635985
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.529789599349825e-06,
+    "object_position_difference_max_m": 0.00010710696513369089,
+    "robot_q_difference_max_rad": 0.00010498104974815793,
+    "trace_max_abs": 6.969683543720521,
+    "normal_impulse_sum_Ns": [
+      475.94402628769467,
+      476.62954305206404,
+      476.09385127424986
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9366666666666748,
+    "initial_xy_jitter": [
+      -0.0008754627998213392,
+      0.0007729540835532389
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3003,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13616323305438782,
+    "scores_m": [
+      0.034911070068888383,
+      0.008054411463756427,
+      0.020601636398162412
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.3891963490622198e-05,
+    "object_position_difference_max_m": 0.0005464278117285615,
+    "robot_q_difference_max_rad": 0.00046979199241145575,
+    "trace_max_abs": 3.8531864324426124,
+    "normal_impulse_sum_Ns": [
+      475.9690943143326,
+      476.64183059900415,
+      476.07738503393267
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9366666666666748,
+    "initial_xy_jitter": [
+      -0.0008754627998213392,
+      0.0007729540835532389
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3003,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.6205576616536206,
+    "scores_m": [
+      0.034901400176875076,
+      0.0080305193620436,
+      0.020594764741978938
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.5699184852976416e-08,
+    "object_position_difference_max_m": 8.192656342220772e-07,
+    "robot_q_difference_max_rad": 8.714311849900014e-07,
+    "trace_max_abs": 0.018565868865721313,
+    "normal_impulse_sum_Ns": [
+      475.94996874441233,
+      476.63891886178595,
+      476.1021617088524
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9366666666666748,
+    "initial_xy_jitter": [
+      -0.0008754627998213392,
+      0.0007729540835532389
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3004,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03522264307770038,
+      0.008106655393691443,
+      0.020691438499662682
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.03392607027865,
+      476.7104194695206,
+      476.2032683660025
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9283333333333412,
+    "initial_xy_jitter": [
+      0.0007029833678748002,
+      0.0009825178795921747
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3004,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03522264307770038,
+      0.008106655393691443,
+      0.020691438499662682
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.03392607027865,
+      476.7104194695206,
+      476.2032683660025
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9283333333333412,
+    "initial_xy_jitter": [
+      0.0007029833678748002,
+      0.0009825178795921747
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3004,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03522264307770038,
+      0.008106655393691443,
+      0.020691438499662682
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.03392607027865,
+      476.7104194695206,
+      476.2032683660025
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9283333333333412,
+    "initial_xy_jitter": [
+      0.0007029833678748002,
+      0.0009825178795921747
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3004,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03522264307770038,
+      0.008106655393691443,
+      0.020691438499662682
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.03392607027865,
+      476.7104194695206,
+      476.2032683660025
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9283333333333412,
+    "initial_xy_jitter": [
+      0.0007029833678748002,
+      0.0009825178795921747
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3004,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03523323782613107,
+      0.008139558948083558,
+      0.020692299851045374
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.2903554392114606e-05,
+    "object_position_difference_max_m": 0.0006987745351105246,
+    "robot_q_difference_max_rad": 0.0005686997817326198,
+    "trace_max_abs": 2.4220036238283456,
+    "normal_impulse_sum_Ns": [
+      476.0555771382399,
+      476.7128787417478,
+      476.1822694268153
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9283333333333412,
+    "initial_xy_jitter": [
+      0.0007029833678748002,
+      0.0009825178795921747
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3004,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03522263969795119,
+      0.00810665527365198,
+      0.02069144044570498
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.379749188847647e-09,
+    "object_position_difference_max_m": 7.729146433987921e-08,
+    "robot_q_difference_max_rad": 7.388477207825872e-08,
+    "trace_max_abs": 0.004553015026999674,
+    "normal_impulse_sum_Ns": [
+      476.03395058102507,
+      476.71041866607146,
+      476.2032619924061
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9283333333333412,
+    "initial_xy_jitter": [
+      0.0007029833678748002,
+      0.0009825178795921747
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3004,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13927434340601322,
+    "scores_m": [
+      0.03522579948554653,
+      0.008109736507579648,
+      0.02068750925603974
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.929243622941003e-06,
+    "object_position_difference_max_m": 0.00010522083716954511,
+    "robot_q_difference_max_rad": 0.00010292752355437525,
+    "trace_max_abs": 7.09796925605815,
+    "normal_impulse_sum_Ns": [
+      476.02723513454504,
+      476.7009312293954,
+      476.19595793695214
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9283333333333412,
+    "initial_xy_jitter": [
+      0.0007029833678748002,
+      0.0009825178795921747
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3004,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13641360775344416,
+    "scores_m": [
+      0.035232189255423534,
+      0.008129850103016385,
+      0.02069850777228812
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.3194709324941484e-05,
+    "object_position_difference_max_m": 0.0005572208945515134,
+    "robot_q_difference_max_rad": 0.00047660776191121856,
+    "trace_max_abs": 3.849718071615257,
+    "normal_impulse_sum_Ns": [
+      476.0547121303536,
+      476.7137694233523,
+      476.179210842451
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9283333333333412,
+    "initial_xy_jitter": [
+      0.0007029833678748002,
+      0.0009825178795921747
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3004,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.6254789579916418,
+    "scores_m": [
+      0.03522263969795119,
+      0.00810665527365198,
+      0.02069144044570498
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.379749188847647e-09,
+    "object_position_difference_max_m": 7.729146433987921e-08,
+    "robot_q_difference_max_rad": 7.388477207825872e-08,
+    "trace_max_abs": 0.004553015026999674,
+    "normal_impulse_sum_Ns": [
+      476.03395058102507,
+      476.71041866607146,
+      476.2032619924061
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9283333333333412,
+    "initial_xy_jitter": [
+      0.0007029833678748002,
+      0.0009825178795921747
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3005,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03549927598337365,
+      0.008235622999079708,
+      0.02061580414700552
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.3415268948883,
+      476.99567821487557,
+      476.51109023988323
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.0008083194105066021,
+      0.0009203844684633378
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3005,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03549927598337365,
+      0.008235622999079708,
+      0.02061580414700552
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.3415268948883,
+      476.99567821487557,
+      476.51109023988323
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.0008083194105066021,
+      0.0009203844684633378
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3005,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03549927598337365,
+      0.008235622999079708,
+      0.02061580414700552
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.3415268948883,
+      476.99567821487557,
+      476.51109023988323
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.0008083194105066021,
+      0.0009203844684633378
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3005,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03549927598337365,
+      0.008235622999079708,
+      0.02061580414700552
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.3415268948883,
+      476.99567821487557,
+      476.51109023988323
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.0008083194105066021,
+      0.0009203844684633378
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3005,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.035509317445964986,
+      0.00826714282291611,
+      0.020609802696877545
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.151982383640256e-05,
+    "object_position_difference_max_m": 0.0007014445127836721,
+    "robot_q_difference_max_rad": 0.0005638416673524327,
+    "trace_max_abs": 2.6877287403244736,
+    "normal_impulse_sum_Ns": [
+      476.3637737415288,
+      476.99854403798474,
+      476.5131734734976
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.0008083194105066021,
+      0.0009203844684633378
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3005,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.035499270864823566,
+      0.008235622898763667,
+      0.020615805684711316
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 5.1185500837824804e-09,
+    "object_position_difference_max_m": 5.035712902223821e-08,
+    "robot_q_difference_max_rad": 4.614971604866014e-08,
+    "trace_max_abs": 0.0027747531594286556,
+    "normal_impulse_sum_Ns": [
+      476.34153702715673,
+      476.99567759730644,
+      476.5110855246098
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.0008083194105066021,
+      0.0009203844684633378
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3005,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13968732290925728,
+    "scores_m": [
+      0.0355023979383149,
+      0.008238607270025915,
+      0.020611776633908417
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.027513097103197e-06,
+    "object_position_difference_max_m": 0.00010331915849823292,
+    "robot_q_difference_max_rad": 0.00010151281320691652,
+    "trace_max_abs": 7.074050099588476,
+    "normal_impulse_sum_Ns": [
+      476.33386434730625,
+      476.9859652566766,
+      476.5035394213939
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.0008083194105066021,
+      0.0009203844684633378
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3005,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13661635737991856,
+    "scores_m": [
+      0.035507949071186616,
+      0.008257944521486812,
+      0.020615747501233964
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.232152240710418e-05,
+    "object_position_difference_max_m": 0.0005694360663155706,
+    "robot_q_difference_max_rad": 0.0004861339014932131,
+    "trace_max_abs": 3.897910242439025,
+    "normal_impulse_sum_Ns": [
+      476.35984948070563,
+      476.9989762416986,
+      476.51385730367315
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.0008083194105066021,
+      0.0009203844684633378
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3005,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.630616361787167,
+    "scores_m": [
+      0.035499270864823566,
+      0.008235622898763667,
+      0.020615805684711316
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 5.1185500837824804e-09,
+    "object_position_difference_max_m": 5.035712902223821e-08,
+    "robot_q_difference_max_rad": 4.614971604866014e-08,
+    "trace_max_abs": 0.0027747531594286556,
+    "normal_impulse_sum_Ns": [
+      476.34153702715673,
+      476.99567759730644,
+      476.5110855246098
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.0008083194105066021,
+      0.0009203844684633378
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3006,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03487598185519631,
+      0.008007618232024087,
+      0.020625092797734754
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0509292707316,
+      476.74101686055127,
+      476.19692967483934
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.0009323713662338858,
+      -0.00040443050945298414
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3006,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03487598185519631,
+      0.008007618232024087,
+      0.020625092797734754
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0509292707316,
+      476.74101686055127,
+      476.19692967483934
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.0009323713662338858,
+      -0.00040443050945298414
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3006,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03487598185519631,
+      0.008007618232024087,
+      0.020625092797734754
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0509292707316,
+      476.74101686055127,
+      476.19692967483934
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.0009323713662338858,
+      -0.00040443050945298414
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3006,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03487598185519631,
+      0.008007618232024087,
+      0.020625092797734754
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0509292707316,
+      476.74101686055127,
+      476.19692967483934
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.0009323713662338858,
+      -0.00040443050945298414
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3006,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03488727053037108,
+      0.008041505233297967,
+      0.020625711331518186
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.388700127388011e-05,
+    "object_position_difference_max_m": 0.0006926405522835744,
+    "robot_q_difference_max_rad": 0.0005643051981472948,
+    "trace_max_abs": 2.4476645671370534,
+    "normal_impulse_sum_Ns": [
+      476.0745650233725,
+      476.7425005978169,
+      476.1755262049097
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.0009323713662338858,
+      -0.00040443050945298414
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3006,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03487597237257776,
+      0.008007618097580266,
+      0.020625094914264553
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 9.482618551492905e-09,
+    "object_position_difference_max_m": 1.3031528967033523e-07,
+    "robot_q_difference_max_rad": 1.2874706722953988e-07,
+    "trace_max_abs": 0.008555798964835049,
+    "normal_impulse_sum_Ns": [
+      476.0509934463698,
+      476.7410158945439,
+      476.1969222543206
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.0009323713662338858,
+      -0.00040443050945298414
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3006,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13876284396849795,
+    "scores_m": [
+      0.03487886691296763,
+      0.008010968898102573,
+      0.020621570705131
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.522092603753385e-06,
+    "object_position_difference_max_m": 0.00010774356243778427,
+    "robot_q_difference_max_rad": 0.00010555262067928192,
+    "trace_max_abs": 6.965489888203706,
+    "normal_impulse_sum_Ns": [
+      476.0436574538491,
+      476.73141554127307,
+      476.188405091239
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.0009323713662338858,
+      -0.00040443050945298414
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3006,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13616611167500145,
+    "scores_m": [
+      0.03488597785402299,
+      0.00803132079917647,
+      0.02063196370484451
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.3702567152382795e-05,
+    "object_position_difference_max_m": 0.0005455996224072446,
+    "robot_q_difference_max_rad": 0.00046919689174657053,
+    "trace_max_abs": 3.833659356084695,
+    "normal_impulse_sum_Ns": [
+      476.07084121737694,
+      476.7429299487375,
+      476.17207072585205
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.0009323713662338858,
+      -0.00040443050945298414
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3006,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.619611238314946,
+    "scores_m": [
+      0.03487597237257776,
+      0.008007618097580266,
+      0.020625094914264553
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 9.482618551492905e-09,
+    "object_position_difference_max_m": 1.3031528967033523e-07,
+    "robot_q_difference_max_rad": 1.2874706722953988e-07,
+    "trace_max_abs": 0.008555798964835049,
+    "normal_impulse_sum_Ns": [
+      476.0509934463698,
+      476.7410158945439,
+      476.1969222543206
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9716666666666756,
+    "initial_xy_jitter": [
+      -0.0009323713662338858,
+      -0.00040443050945298414
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3007,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03551309194330982,
+      0.008213305465370706,
+      0.020686550940863257
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.4710052745547,
+      477.1218518190386,
+      476.63881643799056
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.00010778751412525824,
+      0.0008979214411942054
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3007,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03551309194330982,
+      0.008213305465370706,
+      0.020686550940863257
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.4710052745547,
+      477.1218518190386,
+      476.63881643799056
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.00010778751412525824,
+      0.0008979214411942054
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3007,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03551309194330982,
+      0.008213305465370706,
+      0.020686550940863257
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.4710052745547,
+      477.1218518190386,
+      476.63881643799056
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.00010778751412525824,
+      0.0008979214411942054
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3007,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03551309194330982,
+      0.008213305465370706,
+      0.020686550940863257
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.4710052745547,
+      477.1218518190386,
+      476.63881643799056
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.00010778751412525824,
+      0.0008979214411942054
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3007,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03552307370484688,
+      0.008244621820210223,
+      0.02068119700947964
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.131635483951713e-05,
+    "object_position_difference_max_m": 0.0007025614134502367,
+    "robot_q_difference_max_rad": 0.0005640916025946852,
+    "trace_max_abs": 2.6415597698396596,
+    "normal_impulse_sum_Ns": [
+      476.4957436846666,
+      477.1248690896264,
+      476.6393883062278
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.00010778751412525824,
+      0.0008979214411942054
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3007,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03551308697194978,
+      0.0082133053647822,
+      0.02068655246513752
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.971360045846751e-09,
+    "object_position_difference_max_m": 4.794479802061602e-08,
+    "robot_q_difference_max_rad": 4.378308648966822e-08,
+    "trace_max_abs": 0.002591234234841977,
+    "normal_impulse_sum_Ns": [
+      476.4710151928097,
+      477.1218512245205,
+      476.6388119938317
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.00010778751412525824,
+      0.0008979214411942054
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3007,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.1394705247691646,
+    "scores_m": [
+      0.03551612473160344,
+      0.008216282735263312,
+      0.020682708225339495
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.842715523762197e-06,
+    "object_position_difference_max_m": 0.00010357391766716018,
+    "robot_q_difference_max_rad": 0.0001015557423626641,
+    "trace_max_abs": 7.058587010742372,
+    "normal_impulse_sum_Ns": [
+      476.46388200004293,
+      477.1119051740404,
+      476.6312175860694
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.00010778751412525824,
+      0.0008979214411942054
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3007,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.1366478345155089,
+    "scores_m": [
+      0.035521857389220306,
+      0.008235566629784318,
+      0.020686988473753457
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.2261164413612047e-05,
+    "object_position_difference_max_m": 0.0005711016413090242,
+    "robot_q_difference_max_rad": 0.00048683938960875084,
+    "trace_max_abs": 3.920225063833186,
+    "normal_impulse_sum_Ns": [
+      476.49080719414513,
+      477.1250748593596,
+      476.6410819556684
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.00010778751412525824,
+      0.0008979214411942054
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3007,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.6314426841504095,
+    "scores_m": [
+      0.03551308697194978,
+      0.0082133053647822,
+      0.02068655246513752
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.971360045846751e-09,
+    "object_position_difference_max_m": 4.794479802061602e-08,
+    "robot_q_difference_max_rad": 4.378308648966822e-08,
+    "trace_max_abs": 0.002591234234841977,
+    "normal_impulse_sum_Ns": [
+      476.4710151928097,
+      477.1218512245205,
+      476.6388119938317
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      -0.00010778751412525824,
+      0.0008979214411942054
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3008,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.0354302251631165,
+      0.008153206703211773,
+      0.02075358590009103
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.4827794870652,
+      477.15117742328454,
+      476.6408947397099
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      0.0006664820754860941,
+      0.0009047507327230419
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3008,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.0354302251631165,
+      0.008153206703211773,
+      0.02075358590009103
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.4827794870652,
+      477.15117742328454,
+      476.6408947397099
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      0.0006664820754860941,
+      0.0009047507327230419
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3008,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.0354302251631165,
+      0.008153206703211773,
+      0.02075358590009103
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.4827794870652,
+      477.15117742328454,
+      476.6408947397099
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      0.0006664820754860941,
+      0.0009047507327230419
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3008,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.0354302251631165,
+      0.008153206703211773,
+      0.02075358590009103
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.4827794870652,
+      477.15117742328454,
+      476.6408947397099
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      0.0006664820754860941,
+      0.0009047507327230419
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3008,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03544062240233753,
+      0.008184440978317171,
+      0.020748881066733716
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.123427510539831e-05,
+    "object_position_difference_max_m": 0.0007038157109165166,
+    "robot_q_difference_max_rad": 0.0005642560645506833,
+    "trace_max_abs": 2.6022385782937363,
+    "normal_impulse_sum_Ns": [
+      476.50433506685033,
+      477.15355734159897,
+      476.64205292869394
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      0.0006664820754860941,
+      0.0009047507327230419
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3008,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.0354302196545522,
+      0.008153206608371535,
+      0.020753587437604307
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 5.508564299150365e-09,
+    "object_position_difference_max_m": 4.568540989957626e-08,
+    "robot_q_difference_max_rad": 4.2347390927233164e-08,
+    "trace_max_abs": 0.0023677355301288117,
+    "normal_impulse_sum_Ns": [
+      476.4827898778398,
+      477.1511767920029,
+      476.64089037078816
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      0.0006664820754860941,
+      0.0009047507327230419
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3008,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13948363770633895,
+    "scores_m": [
+      0.035433210656199234,
+      0.008156169186261397,
+      0.020749587523273386
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.998376817644644e-06,
+    "object_position_difference_max_m": 0.00010515908748034986,
+    "robot_q_difference_max_rad": 0.00010291132816457301,
+    "trace_max_abs": 7.0247980006273565,
+    "normal_impulse_sum_Ns": [
+      476.4741269841251,
+      477.1412956294324,
+      476.6334542654674
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      0.0006664820754860941,
+      0.0009047507327230419
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3008,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13663823560368094,
+    "scores_m": [
+      0.03543967132600767,
+      0.008175148820036582,
+      0.020755139501628616
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.1942116824808997e-05,
+    "object_position_difference_max_m": 0.0005676093839340202,
+    "robot_q_difference_max_rad": 0.0004841876172460291,
+    "trace_max_abs": 3.8628455886856727,
+    "normal_impulse_sum_Ns": [
+      476.498054371676,
+      477.1539018620787,
+      476.6439009213555
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      0.0006664820754860941,
+      0.0009047507327230419
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3008,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.628021336623079,
+    "scores_m": [
+      0.0354302196545522,
+      0.008153206608371535,
+      0.020753587437604307
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 5.508564299150365e-09,
+    "object_position_difference_max_m": 4.568540989957626e-08,
+    "robot_q_difference_max_rad": 4.2347390927233164e-08,
+    "trace_max_abs": 0.0023677355301288117,
+    "normal_impulse_sum_Ns": [
+      476.4827898778398,
+      477.1511767920029,
+      476.64089037078816
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9316666666666746,
+    "initial_xy_jitter": [
+      0.0006664820754860941,
+      0.0009047507327230419
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3009,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035495990468915196,
+      0.008188977092830268,
+      0.020725582384777196
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.3602039719794,
+      477.0237323123781,
+      476.53265385589503
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      0.0006622783719864151,
+      -0.0004478937599158636
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3009,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035495990468915196,
+      0.008188977092830268,
+      0.020725582384777196
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.3602039719794,
+      477.0237323123781,
+      476.53265385589503
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      0.0006622783719864151,
+      -0.0004478937599158636
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3009,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035495990468915196,
+      0.008188977092830268,
+      0.020725582384777196
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.3602039719794,
+      477.0237323123781,
+      476.53265385589503
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      0.0006622783719864151,
+      -0.0004478937599158636
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3009,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035495990468915196,
+      0.008188977092830268,
+      0.020725582384777196
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.3602039719794,
+      477.0237323123781,
+      476.53265385589503
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      0.0006622783719864151,
+      -0.0004478937599158636
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3009,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03550617791216111,
+      0.008220342706425871,
+      0.020720106260920964
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.136561359560336e-05,
+    "object_position_difference_max_m": 0.0007036384785829852,
+    "robot_q_difference_max_rad": 0.0005642125745719817,
+    "trace_max_abs": 2.6555289135712883,
+    "normal_impulse_sum_Ns": [
+      476.3808091201008,
+      477.0264562833169,
+      476.5343446807492
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      0.0006622783719864151,
+      -0.0004478937599158636
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3009,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03549598563259389,
+      0.00818897699524245,
+      0.020725583938363948
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.836321308709923e-09,
+    "object_position_difference_max_m": 4.316726798236914e-08,
+    "robot_q_difference_max_rad": 3.961794803331031e-08,
+    "trace_max_abs": 0.002236621902738989,
+    "normal_impulse_sum_Ns": [
+      476.36021205539987,
+      477.0237316797906,
+      476.5326492037392
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      0.0006622783719864151,
+      -0.0004478937599158636
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3009,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13953172310700304,
+    "scores_m": [
+      0.035498969906013075,
+      0.008191804498321222,
+      0.020721421943295217
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.160441481979027e-06,
+    "object_position_difference_max_m": 0.00010438010207172721,
+    "robot_q_difference_max_rad": 0.0001021695511975321,
+    "trace_max_abs": 7.075772918427219,
+    "normal_impulse_sum_Ns": [
+      476.35365438333264,
+      477.0139662602797,
+      476.52482775237155
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      0.0006622783719864151,
+      -0.0004478937599158636
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3009,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13663138112481443,
+    "scores_m": [
+      0.03550499555592544,
+      0.008211115269798053,
+      0.02072601153743232
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.2138176967785583e-05,
+    "object_position_difference_max_m": 0.0005694125858181354,
+    "robot_q_difference_max_rad": 0.0004853922755496676,
+    "trace_max_abs": 3.862243254094551,
+    "normal_impulse_sum_Ns": [
+      476.3783640296361,
+      477.02706864154214,
+      476.53521189675797
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      0.0006622783719864151,
+      -0.0004478937599158636
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3009,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.629328008825336,
+    "scores_m": [
+      0.03549598563259389,
+      0.00818897699524245,
+      0.020725583938363948
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 4.836321308709923e-09,
+    "object_position_difference_max_m": 4.316726798236914e-08,
+    "robot_q_difference_max_rad": 3.961794803331031e-08,
+    "trace_max_abs": 0.002236621902738989,
+    "normal_impulse_sum_Ns": [
+      476.36021205539987,
+      477.0237316797906,
+      476.5326492037392
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      0.0006622783719864151,
+      -0.0004478937599158636
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3010,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035150986573053565,
+      0.008113384827727752,
+      0.02060795906278344
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.1347604972398,
+      476.8100904237857,
+      476.2984479204571
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0007593106990730955,
+      -0.0004886544497897056
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3010,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035150986573053565,
+      0.008113384827727752,
+      0.02060795906278344
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.1347604972398,
+      476.8100904237857,
+      476.2984479204571
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0007593106990730955,
+      -0.0004886544497897056
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3010,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035150986573053565,
+      0.008113384827727752,
+      0.02060795906278344
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.1347604972398,
+      476.8100904237857,
+      476.2984479204571
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0007593106990730955,
+      -0.0004886544497897056
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3010,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035150986573053565,
+      0.008113384827727752,
+      0.02060795906278344
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.1347604972398,
+      476.8100904237857,
+      476.2984479204571
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0007593106990730955,
+      -0.0004886544497897056
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3010,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03516129481153473,
+      0.008146030790097443,
+      0.02060835981158093
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.264596236969043e-05,
+    "object_position_difference_max_m": 0.0006970391802287867,
+    "robot_q_difference_max_rad": 0.0005683536348487141,
+    "trace_max_abs": 2.406756648714122,
+    "normal_impulse_sum_Ns": [
+      476.1575143535657,
+      476.8118121605746,
+      476.27695482950946
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0007593106990730955,
+      -0.0004886544497897056
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3010,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03515097924889662,
+      0.008113384705945468,
+      0.020607961010232472
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 7.324156947596805e-09,
+    "object_position_difference_max_m": 9.000286527172108e-08,
+    "robot_q_difference_max_rad": 8.603171819387967e-08,
+    "trace_max_abs": 0.005576000212840881,
+    "normal_impulse_sum_Ns": [
+      476.134794161193,
+      476.81008963507395,
+      476.29844167590187
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0007593106990730955,
+      -0.0004886544497897056
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3010,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.1392730460883095,
+    "scores_m": [
+      0.03515409174622122,
+      0.008116477864549677,
+      0.020604090355998184
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.868706785255943e-06,
+    "object_position_difference_max_m": 0.00010478875803743293,
+    "robot_q_difference_max_rad": 0.0001028643691064696,
+    "trace_max_abs": 7.0412094174803315,
+    "normal_impulse_sum_Ns": [
+      476.1267646564446,
+      476.8002138021161,
+      476.2908475013137
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0007593106990730955,
+      -0.0004886544497897056
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3010,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13642411740521612,
+    "scores_m": [
+      0.035160244439201425,
+      0.008136707722475213,
+      0.02061482090286815
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.3322894747461118e-05,
+    "object_position_difference_max_m": 0.0005556416224162253,
+    "robot_q_difference_max_rad": 0.00047633283228040724,
+    "trace_max_abs": 3.889912611706336,
+    "normal_impulse_sum_Ns": [
+      476.15482740208563,
+      476.8131485913628,
+      476.27307991800643
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0007593106990730955,
+      -0.0004886544497897056
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3010,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.625534219052162,
+    "scores_m": [
+      0.03515097924889662,
+      0.008113384705945468,
+      0.020607961010232472
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 7.324156947596805e-09,
+    "object_position_difference_max_m": 9.000286527172108e-08,
+    "robot_q_difference_max_rad": 8.603171819387967e-08,
+    "trace_max_abs": 0.005576000212840881,
+    "normal_impulse_sum_Ns": [
+      476.134794161193,
+      476.81008963507395,
+      476.29844167590187
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0007593106990730955,
+      -0.0004886544497897056
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3011,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035188821991248315,
+      0.008065707666206895,
+      0.020755896607261255
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2414883303632,
+      476.9257331451592,
+      476.403541691512
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9550000000000085,
+    "initial_xy_jitter": [
+      0.0006940114721308325,
+      0.00014190552512512232
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3011,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035188821991248315,
+      0.008065707666206895,
+      0.020755896607261255
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2414883303632,
+      476.9257331451592,
+      476.403541691512
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9550000000000085,
+    "initial_xy_jitter": [
+      0.0006940114721308325,
+      0.00014190552512512232
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3011,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035188821991248315,
+      0.008065707666206895,
+      0.020755896607261255
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2414883303632,
+      476.9257331451592,
+      476.403541691512
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9550000000000085,
+    "initial_xy_jitter": [
+      0.0006940114721308325,
+      0.00014190552512512232
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3011,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035188821991248315,
+      0.008065707666206895,
+      0.020755896607261255
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.2414883303632,
+      476.9257331451592,
+      476.403541691512
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9550000000000085,
+    "initial_xy_jitter": [
+      0.0006940114721308325,
+      0.00014190552512512232
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3011,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03519927153506908,
+      0.008098181590183058,
+      0.020756311595704315
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.247392397616282e-05,
+    "object_position_difference_max_m": 0.0007001636110195997,
+    "robot_q_difference_max_rad": 0.0005697205367639745,
+    "trace_max_abs": 2.350964719260446,
+    "normal_impulse_sum_Ns": [
+      476.2655474653023,
+      476.9279405478322,
+      476.38289387676224
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9550000000000085,
+    "initial_xy_jitter": [
+      0.0006940114721308325,
+      0.00014190552512512232
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3011,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03518881489523422,
+      0.008065707554434984,
+      0.020755898439968785
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 7.096014095764325e-09,
+    "object_position_difference_max_m": 7.540776836290064e-08,
+    "robot_q_difference_max_rad": 7.248076139276804e-08,
+    "trace_max_abs": 0.004316589987865882,
+    "normal_impulse_sum_Ns": [
+      476.2415128655964,
+      476.925732366946,
+      476.4035359439733
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9550000000000085,
+    "initial_xy_jitter": [
+      0.0006940114721308325,
+      0.00014190552512512232
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3011,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.1391351158277642,
+    "scores_m": [
+      0.03519182918521179,
+      0.008068789563505107,
+      0.02075190043499105
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.996172270204212e-06,
+    "object_position_difference_max_m": 0.00010657524992627176,
+    "robot_q_difference_max_rad": 0.00010415524311319481,
+    "trace_max_abs": 7.031955206405655,
+    "normal_impulse_sum_Ns": [
+      476.23467605922554,
+      476.91575556843827,
+      476.3967480124752
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9550000000000085,
+    "initial_xy_jitter": [
+      0.0006940114721308325,
+      0.00014190552512512232
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3011,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.1364601437683035,
+    "scores_m": [
+      0.03519835391552051,
+      0.008088489511560645,
+      0.02076293787277684
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.2781845353750038e-05,
+    "object_position_difference_max_m": 0.0005567931487255873,
+    "robot_q_difference_max_rad": 0.0004762165062937307,
+    "trace_max_abs": 3.834420034886989,
+    "normal_impulse_sum_Ns": [
+      476.2612609720044,
+      476.9287127804236,
+      476.37890549158016
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9550000000000085,
+    "initial_xy_jitter": [
+      0.0006940114721308325,
+      0.00014190552512512232
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3011,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.6243228873071915,
+    "scores_m": [
+      0.03518881489523422,
+      0.008065707554434984,
+      0.020755898439968785
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 7.096014095764325e-09,
+    "object_position_difference_max_m": 7.540776836290064e-08,
+    "robot_q_difference_max_rad": 7.248076139276804e-08,
+    "trace_max_abs": 0.004316589987865882,
+    "normal_impulse_sum_Ns": [
+      476.2415128655964,
+      476.925732366946,
+      476.4035359439733
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9550000000000085,
+    "initial_xy_jitter": [
+      0.0006940114721308325,
+      0.00014190552512512232
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3012,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035112920654015715,
+      0.008096821453752245,
+      0.020609923356109186
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0158473225793,
+      476.6986477398288,
+      476.17412631675677
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      -0.0006291804357374923,
+      -0.0004676116392884406
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3012,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035112920654015715,
+      0.008096821453752245,
+      0.020609923356109186
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0158473225793,
+      476.6986477398288,
+      476.17412631675677
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      -0.0006291804357374923,
+      -0.0004676116392884406
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3012,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035112920654015715,
+      0.008096821453752245,
+      0.020609923356109186
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0158473225793,
+      476.6986477398288,
+      476.17412631675677
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      -0.0006291804357374923,
+      -0.0004676116392884406
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3012,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035112920654015715,
+      0.008096821453752245,
+      0.020609923356109186
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0158473225793,
+      476.6986477398288,
+      476.17412631675677
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      -0.0006291804357374923,
+      -0.0004676116392884406
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3012,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.035123622919468,
+      0.008128800988064058,
+      0.02061083195827987
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.197953431181323e-05,
+    "object_position_difference_max_m": 0.0006962935573787132,
+    "robot_q_difference_max_rad": 0.0005676777196409167,
+    "trace_max_abs": 2.433081552625822,
+    "normal_impulse_sum_Ns": [
+      476.03856560631806,
+      476.6979891847975,
+      476.153348439158
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      -0.0006291804357374923,
+      -0.0004676116392884406
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3012,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03511291311019615,
+      0.00809682133237215,
+      0.02060992531600786
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 7.543819562083609e-09,
+    "object_position_difference_max_m": 9.275566381639067e-08,
+    "robot_q_difference_max_rad": 8.964218567442117e-08,
+    "trace_max_abs": 0.005735614284844814,
+    "normal_impulse_sum_Ns": [
+      476.0158822468421,
+      476.69864689977334,
+      476.1741197853821
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      -0.0006291804357374923,
+      -0.0004676116392884406
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3012,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.1393944278301289,
+    "scores_m": [
+      0.035115937723158366,
+      0.008100060275877851,
+      0.020606276502258426
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.6468538507604398e-06,
+    "object_position_difference_max_m": 0.00010591413396768279,
+    "robot_q_difference_max_rad": 0.00010390996344675912,
+    "trace_max_abs": 7.054067867502795,
+    "normal_impulse_sum_Ns": [
+      476.00847236044564,
+      476.6896893345444,
+      476.1675799662173
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      -0.0006291804357374923,
+      -0.0004676116392884406
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3012,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13635073090905747,
+    "scores_m": [
+      0.03512203526605303,
+      0.008120138924449858,
+      0.020616936269791154
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.331747069761296e-05,
+    "object_position_difference_max_m": 0.0005531043470755059,
+    "robot_q_difference_max_rad": 0.00047443262945856546,
+    "trace_max_abs": 3.8438158082346945,
+    "normal_impulse_sum_Ns": [
+      476.0373760669061,
+      476.7016675081899,
+      476.1494276628919
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      -0.0006291804357374923,
+      -0.0004676116392884406
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3012,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.623661343912454,
+    "scores_m": [
+      0.03511291311019615,
+      0.00809682133237215,
+      0.02060992531600786
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 7.543819562083609e-09,
+    "object_position_difference_max_m": 9.275566381639067e-08,
+    "robot_q_difference_max_rad": 8.964218567442117e-08,
+    "trace_max_abs": 0.005735614284844814,
+    "normal_impulse_sum_Ns": [
+      476.0158822468421,
+      476.69864689977334,
+      476.1741197853821
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9733333333333423,
+    "initial_xy_jitter": [
+      -0.0006291804357374923,
+      -0.0004676116392884406
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3013,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03526009262471588,
+      0.008163442500915078,
+      0.020587832732478127
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.10097358453083,
+      476.77050926390507,
+      476.27617875746864
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9700000000000089,
+    "initial_xy_jitter": [
+      -0.0008596806470960836,
+      -0.00023539530594541387
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3013,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03526009262471588,
+      0.008163442500915078,
+      0.020587832732478127
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.10097358453083,
+      476.77050926390507,
+      476.27617875746864
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9700000000000089,
+    "initial_xy_jitter": [
+      -0.0008596806470960836,
+      -0.00023539530594541387
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3013,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03526009262471588,
+      0.008163442500915078,
+      0.020587832732478127
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.10097358453083,
+      476.77050926390507,
+      476.27617875746864
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9700000000000089,
+    "initial_xy_jitter": [
+      -0.0008596806470960836,
+      -0.00023539530594541387
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3013,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03526009262471588,
+      0.008163442500915078,
+      0.020587832732478127
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.10097358453083,
+      476.77050926390507,
+      476.27617875746864
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9700000000000089,
+    "initial_xy_jitter": [
+      -0.0008596806470960836,
+      -0.00023539530594541387
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3013,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03527032723544001,
+      0.008196285330052611,
+      0.020582377936152585
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.284282913753288e-05,
+    "object_position_difference_max_m": 0.0006976790832438906,
+    "robot_q_difference_max_rad": 0.0005609186408245537,
+    "trace_max_abs": 2.789267149038551,
+    "normal_impulse_sum_Ns": [
+      476.125631996081,
+      476.77327039077875,
+      476.278131352377
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9700000000000089,
+    "initial_xy_jitter": [
+      -0.0008596806470960836,
+      -0.00023539530594541387
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3013,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.0352600897227502,
+      0.00816344237843167,
+      0.02058783465656584
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.9019656816453576e-09,
+    "object_position_difference_max_m": 7.720469075156444e-08,
+    "robot_q_difference_max_rad": 7.272937629920762e-08,
+    "trace_max_abs": 0.004718087700553042,
+    "normal_impulse_sum_Ns": [
+      476.1010120437779,
+      476.7705085108305,
+      476.2761725419066
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9700000000000089,
+    "initial_xy_jitter": [
+      -0.0008596806470960836,
+      -0.00023539530594541387
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3013,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13956819999194353,
+    "scores_m": [
+      0.03526296622244411,
+      0.008166497163117258,
+      0.02058397060245519
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.862130022937171e-06,
+    "object_position_difference_max_m": 0.00010357871047106393,
+    "robot_q_difference_max_rad": 0.00010172111362094938,
+    "trace_max_abs": 7.0796145737000415,
+    "normal_impulse_sum_Ns": [
+      476.096032956838,
+      476.7608995565373,
+      476.26881534648163
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9700000000000089,
+    "initial_xy_jitter": [
+      -0.0008596806470960836,
+      -0.00023539530594541387
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3013,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.13646190885335374,
+    "scores_m": [
+      0.03526919835014371,
+      0.008186732517885997,
+      0.020588120083241675
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.329001697091819e-05,
+    "object_position_difference_max_m": 0.0005628664995063759,
+    "robot_q_difference_max_rad": 0.0004815774139487472,
+    "trace_max_abs": 3.9172078579063054,
+    "normal_impulse_sum_Ns": [
+      476.1246158261261,
+      476.77394490754784,
+      476.2805436410683
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9700000000000089,
+    "initial_xy_jitter": [
+      -0.0008596806470960836,
+      -0.00023539530594541387
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3013,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.6279542203225787,
+    "scores_m": [
+      0.0352600897227502,
+      0.00816344237843167,
+      0.02058783465656584
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.9019656816453576e-09,
+    "object_position_difference_max_m": 7.720469075156444e-08,
+    "robot_q_difference_max_rad": 7.272937629920762e-08,
+    "trace_max_abs": 0.004718087700553042,
+    "normal_impulse_sum_Ns": [
+      476.1010120437779,
+      476.7705085108305,
+      476.2761725419066
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9700000000000089,
+    "initial_xy_jitter": [
+      -0.0008596806470960836,
+      -0.00023539530594541387
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3014,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035094623496890645,
+      0.008068468666557298,
+      0.02067735648219765
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0138851449159,
+      476.69235461324683,
+      476.18485364006074
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9900000000000093,
+    "initial_xy_jitter": [
+      0.00018824453618485602,
+      -0.0009533424850531558
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3014,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035094623496890645,
+      0.008068468666557298,
+      0.02067735648219765
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0138851449159,
+      476.69235461324683,
+      476.18485364006074
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9900000000000093,
+    "initial_xy_jitter": [
+      0.00018824453618485602,
+      -0.0009533424850531558
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3014,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035094623496890645,
+      0.008068468666557298,
+      0.02067735648219765
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0138851449159,
+      476.69235461324683,
+      476.18485364006074
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9900000000000093,
+    "initial_xy_jitter": [
+      0.00018824453618485602,
+      -0.0009533424850531558
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3014,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.035094623496890645,
+      0.008068468666557298,
+      0.02067735648219765
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      476.0138851449159,
+      476.69235461324683,
+      476.18485364006074
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9900000000000093,
+    "initial_xy_jitter": [
+      0.00018824453618485602,
+      -0.0009533424850531558
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3014,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03510491718069576,
+      0.008102019314507708,
+      0.02067824665022395
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.3550647950410586e-05,
+    "object_position_difference_max_m": 0.0006964821709424529,
+    "robot_q_difference_max_rad": 0.0005666091416232466,
+    "trace_max_abs": 2.4428924187376424,
+    "normal_impulse_sum_Ns": [
+      476.03660300349134,
+      476.6948933560066,
+      476.163083964976
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9900000000000093,
+    "initial_xy_jitter": [
+      0.00018824453618485602,
+      -0.0009533424850531558
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3014,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.035094616040434554,
+      0.008068468533130039,
+      0.0206773586187933
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 7.456456091459174e-09,
+    "object_position_difference_max_m": 9.848260895672922e-08,
+    "robot_q_difference_max_rad": 9.510329501694059e-08,
+    "trace_max_abs": 0.006116398765811937,
+    "normal_impulse_sum_Ns": [
+      476.01392614550673,
+      476.69235374267635,
+      476.1848465407653
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9900000000000093,
+    "initial_xy_jitter": [
+      0.00018824453618485602,
+      -0.0009533424850531558
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3014,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13892274506077215,
+    "scores_m": [
+      0.03509741966638198,
+      0.008071594970722604,
+      0.02067374923117184
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.6072510258104706e-06,
+    "object_position_difference_max_m": 0.00010533192310138717,
+    "robot_q_difference_max_rad": 0.00010304516193439727,
+    "trace_max_abs": 7.049267984985704,
+    "normal_impulse_sum_Ns": [
+      476.00586764197806,
+      476.6825960888034,
+      476.1768871627305
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9900000000000093,
+    "initial_xy_jitter": [
+      0.00018824453618485602,
+      -0.0009533424850531558
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3014,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.1363313273291272,
+    "scores_m": [
+      0.03510391489763344,
+      0.008092124548660186,
+      0.020684456999546703
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.365588210288816e-05,
+    "object_position_difference_max_m": 0.0005539343746908953,
+    "robot_q_difference_max_rad": 0.00047437694716145895,
+    "trace_max_abs": 3.877530849253276,
+    "normal_impulse_sum_Ns": [
+      476.03263946920185,
+      476.69574492904025,
+      476.16010030631514
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9900000000000093,
+    "initial_xy_jitter": [
+      0.00018824453618485602,
+      -0.0009533424850531558
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3014,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.6242438948377345,
+    "scores_m": [
+      0.035094616040434554,
+      0.008068468533130039,
+      0.0206773586187933
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 7.456456091459174e-09,
+    "object_position_difference_max_m": 9.848260895672922e-08,
+    "robot_q_difference_max_rad": 9.510329501694059e-08,
+    "trace_max_abs": 0.006116398765811937,
+    "normal_impulse_sum_Ns": [
+      476.01392614550673,
+      476.69235374267635,
+      476.1848465407653
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.9900000000000093,
+    "initial_xy_jitter": [
+      0.00018824453618485602,
+      -0.0009533424850531558
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3015,
+    "condition": "fresh",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03500564620612448,
+      0.008069831765803706,
+      0.02058932473160259
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      475.9605632060852,
+      476.645549059786,
+      476.1196039756619
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0008539820054895104,
+      -0.0004940762960181491
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3015,
+    "condition": "supported_reset",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03500564620612448,
+      0.008069831765803706,
+      0.02058932473160259
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      475.9605632060852,
+      476.645549059786,
+      476.1196039756619
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0008539820054895104,
+      -0.0004940762960181491
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3015,
+    "condition": "full_reload",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03500564620612448,
+      0.008069831765803706,
+      0.02058932473160259
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      475.9605632060852,
+      476.645549059786,
+      476.1196039756619
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0008539820054895104,
+      -0.0004940762960181491
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3015,
+    "condition": "independent_fork",
+    "checkpoint_full_state_max_abs": 0.0,
+    "scores_m": [
+      0.03500564620612448,
+      0.008069831765803706,
+      0.02058932473160259
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 0.0,
+    "object_position_difference_max_m": 0.0,
+    "robot_q_difference_max_rad": 0.0,
+    "trace_max_abs": 0.0,
+    "normal_impulse_sum_Ns": [
+      475.9605632060852,
+      476.645549059786,
+      476.1196039756619
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0008539820054895104,
+      -0.0004940762960181491
+    ],
+    "parent_preserved": true
+  },
+  {
+    "seed": 3015,
+    "condition": "qpos_only",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.035015805755824914,
+      0.008103572633585824,
+      0.020590147091467056
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.374086778211785e-05,
+    "object_position_difference_max_m": 0.0006937978096192288,
+    "robot_q_difference_max_rad": 0.0005654396981145384,
+    "trace_max_abs": 2.459327421892681,
+    "normal_impulse_sum_Ns": [
+      475.98452031734513,
+      476.6473885754199,
+      476.0988276836291
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0008539820054895104,
+      -0.0004940762960181491
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3015,
+    "condition": "qpos_qvel",
+    "checkpoint_full_state_max_abs": 178.5,
+    "scores_m": [
+      0.03500563804339277,
+      0.00806983163262599,
+      0.02058932687970836
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 8.162731712779703e-09,
+    "object_position_difference_max_m": 1.1189498760888483e-07,
+    "robot_q_difference_max_rad": 1.0898117874802438e-07,
+    "trace_max_abs": 0.007238541404490206,
+    "normal_impulse_sum_Ns": [
+      475.9606167842195,
+      476.64554815108653,
+      476.11959663043416
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0008539820054895104,
+      -0.0004940762960181491
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3015,
+    "condition": "drop_object_velocity",
+    "checkpoint_full_state_max_abs": 0.13899426533141657,
+    "scores_m": [
+      0.0350082192339456,
+      0.00807312943179067,
+      0.02058572767375646
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 3.5970578461316793e-06,
+    "object_position_difference_max_m": 0.00010609669199718175,
+    "robot_q_difference_max_rad": 0.0001040220853743795,
+    "trace_max_abs": 7.006550990065421,
+    "normal_impulse_sum_Ns": [
+      475.9540928228519,
+      476.63646763211966,
+      476.1128545559744
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0008539820054895104,
+      -0.0004940762960181491
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3015,
+    "condition": "drop_robot_velocity",
+    "checkpoint_full_state_max_abs": 0.1362427672380992,
+    "scores_m": [
+      0.03501465904126195,
+      0.008093579488679711,
+      0.02059632329716805
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 2.3747722876004893e-05,
+    "object_position_difference_max_m": 0.0005498305420480742,
+    "robot_q_difference_max_rad": 0.00047217640753288714,
+    "trace_max_abs": 3.8648967881697445,
+    "normal_impulse_sum_Ns": [
+      475.98095654921747,
+      476.64860585337163,
+      476.09492292027005
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0008539820054895104,
+      -0.0004940762960181491
+    ],
+    "parent_preserved": null
+  },
+  {
+    "seed": 3015,
+    "condition": "drop_warmstart",
+    "checkpoint_full_state_max_abs": 3.6224483299800645,
+    "scores_m": [
+      0.03500563804339277,
+      0.00806983163262599,
+      0.02058932687970836
+    ],
+    "winner": 1,
+    "rank": [
+      1,
+      2,
+      0
+    ],
+    "score_difference_max_m": 8.162731712779703e-09,
+    "object_position_difference_max_m": 1.1189498760888483e-07,
+    "robot_q_difference_max_rad": 1.0898117874802438e-07,
+    "trace_max_abs": 0.007238541404490206,
+    "normal_impulse_sum_Ns": [
+      475.9606167842195,
+      476.64554815108653,
+      476.11959663043416
+    ],
+    "contact_counts": [
+      6480,
+      6480,
+      6480
+    ],
+    "first_prefix_contact_time_s": 0.975000000000009,
+    "initial_xy_jitter": [
+      -0.0008539820054895104,
+      -0.0004940762960181491
+    ],
+    "parent_preserved": null
+  }
+]
