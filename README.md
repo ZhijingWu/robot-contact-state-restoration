@@ -48,13 +48,22 @@ The independent-process reproducibility claim was verified on the recorded platf
 
 The original platform used Python 3.13.5, NumPy 2.1.3 and MuJoCo 3.17.0. Only NumPy is needed for analysis; no GPU, API key, model checkpoint or paid service is needed.
 
-```sh
+The [release manifest](provenance/release_sha256.json) covers all 496 archived files, including this README and the reproduction guide. Use the pinned evidence commit for the integrity check. On Windows, `--config core.autocrlf=false` preserves the committed line endings in this clone.
+
+Run these commands in PowerShell from a parent directory where `robot-contact-evidence` does not yet exist.
+
+```powershell
+git clone --config core.autocrlf=false https://github.com/ZhijingWu/robot-contact-state-restoration.git robot-contact-evidence
+cd robot-contact-evidence
+git switch --detach 792423b2e303b4410fb41e531b9b7c051286c2f3
+
 python -m venv .venv
-# Activate .venv using your platform's normal activation command.
-python -m pip install numpy==2.1.3
-python scripts/verify_release.py
-python scripts/analyze.py --out .runs/analysis
+.\.venv\Scripts\python.exe -m pip install numpy==2.1.3
+.\.venv\Scripts\python.exe scripts/verify_release.py
+.\.venv\Scripts\python.exe scripts/analyze.py --out .runs/analysis
 ```
+
+On macOS or Linux, use the same commands with `.venv/bin/python` in place of `.\.venv\Scripts\python.exe`.
 
 Use a fresh `--out` directory. Analysis checks all nine conditions, recomputes the scores from raw arrays, checks exact complete-state controls, and compares all 1,424 confirmation-array byte hashes with the independently recorded repeat.
 

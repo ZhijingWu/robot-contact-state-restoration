@@ -4,7 +4,24 @@ Run commands from the repository root. Create a virtual environment using the re
 
 ## Evidence-only path
 
-Run `python scripts/verify_release.py`, then `python scripts/analyze.py --out .runs/analysis`. Use a new output directory. Expect 144 seed-condition rows, 0/16 qpos-only flips, maximum coordinate discrepancy 0.0007038157109165166 m, maximum score perturbation 0.00003388700127388011 m, minimum reference candidate margin 0.012356339325469942 m, exact complete-state controls and 1,424 matching repeat-array hashes. This is recalculation from stored traces, not new simulation.
+The frozen [manifest](../provenance/release_sha256.json) hashes the README and this guide along with the scientific files. Select the evidence commit shown below so the verifier sees the documentation that was hashed. Windows Git can convert LF to CRLF during checkout, which changes file sizes and SHA-256 values. The clone-local setting preserves the stored bytes.
+
+Start in a parent directory with an unused `robot-contact-evidence` name. These commands work in PowerShell.
+
+```powershell
+git clone --config core.autocrlf=false https://github.com/ZhijingWu/robot-contact-state-restoration.git robot-contact-evidence
+cd robot-contact-evidence
+git switch --detach 792423b2e303b4410fb41e531b9b7c051286c2f3
+```
+
+Run the two checks from that checkout with NumPy 2.1.3 installed in your Python environment. For PowerShell setup in a fresh virtual environment, see the [README walkthrough](../README.md#recompute-from-included-evidence).
+
+```powershell
+python scripts/verify_release.py
+python scripts/analyze.py --out .runs/analysis
+```
+
+The verifier reports 496 checked files and confirms the identities of all three original scripts. Use a new analysis output directory for each run. Expect 144 seed-condition rows, 0/16 qpos-only flips, maximum coordinate discrepancy 0.0007038157109165166 m, maximum score perturbation 0.00003388700127388011 m, minimum reference candidate margin 0.012356339325469942 m, exact complete-state controls and 1,424 matching repeat-array hashes. This is recalculation from stored traces, not new simulation.
 
 ## Simulation path
 
